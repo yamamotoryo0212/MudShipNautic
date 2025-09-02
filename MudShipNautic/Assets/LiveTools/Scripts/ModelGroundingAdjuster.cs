@@ -3,24 +3,19 @@ using UnityEngine;
 public class ModelGroundingAdjuster : MonoBehaviour
 {
 	private float _yOffsetToGround = 0;
-	private void Update()
+	public void AdjustModelToGround(GameObject target)
 	{
-		if (Input.GetKeyDown(KeyCode.A))
+		float lowestVertexYWorld = GetLowestVertexYCoordinate(target);
+		_yOffsetToGround = -lowestVertexYWorld;
+		target.transform.position = new Vector3()
 		{
-			float lowestVertexYWorld = GetLowestVertexYCoordinate(gameObject);
-			 _yOffsetToGround = -lowestVertexYWorld;
-            gameObject.transform.position = new Vector3()
-            {
-                x = gameObject.transform.position.x,
-                y = gameObject.transform.position.y + _yOffsetToGround,
-                z = gameObject.transform.position.z
-            };
-        }
-
-
+			x = target.transform.position.x,
+			y = target.transform.position.y + _yOffsetToGround,
+			z = target.transform.position.z
+		};
 	}
 
-	public float GetLowestVertexYCoordinate(GameObject targetGameObject)
+	private float GetLowestVertexYCoordinate(GameObject targetGameObject)
 	{
 		float currentMinY = float.MaxValue;
 
