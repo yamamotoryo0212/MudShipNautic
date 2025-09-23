@@ -1,0 +1,13 @@
+{
+  "name": "jp.co.activ8.external.magicacloth2",
+  "displayName": "Magica Cloth 2",
+  "version": "2.15.0",
+  "author": "activ8-external",
+  "unity": "2022.3",
+  "description": "Magica Cloth <https://assetstore.unity.com/packages/tools/physics/magica-cloth-2-242307>",
+  "keywords": [],
+  "dependencies": {
+    "com.unity.collections": "1.4.0"
+  },
+  "_fingerprint": "3bffe13401c5dc234317583181fe1f2b4f16fbd2"
+}

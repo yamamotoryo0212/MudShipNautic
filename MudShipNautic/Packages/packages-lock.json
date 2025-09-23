@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.cqf.urpvolumetricfog": {
+      "version": "https://github.com/CristianQiu/Unity-URP-Volumetric-Light.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "3f28b49218ca4c928ca0d4c3d508f0c0ddf43473"
+    },
     "com.unity.ai.navigation": {
       "version": "2.0.6",
       "depth": 0,
@@ -11,11 +18,20 @@
     },
     "com.unity.burst": {
       "version": "1.8.19",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.2.1",
         "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.cinemachine": {
+      "version": "2.10.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.31"
       },
       "url": "https://packages.unity.com"
     },
@@ -28,7 +44,7 @@
     },
     "com.unity.collections": {
       "version": "2.5.1",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.burst": "1.8.17",
@@ -73,7 +89,7 @@
     },
     "com.unity.mathematics": {
       "version": "1.3.2",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -88,14 +104,14 @@
     },
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.4",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
       "version": "17.0.4",
-      "depth": 1,
+      "depth": 0,
       "source": "builtin",
       "dependencies": {
         "com.unity.burst": "1.8.14",
@@ -128,7 +144,7 @@
     },
     "com.unity.rendering.light-transport": {
       "version": "1.0.1",
-      "depth": 2,
+      "depth": 1,
       "source": "builtin",
       "dependencies": {
         "com.unity.collections": "2.2.0",
@@ -164,7 +180,7 @@
     },
     "com.unity.test-framework.performance": {
       "version": "3.0.3",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.31",
@@ -193,6 +209,25 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
+    "com.unity.universal-forwardplus-volumetric": {
+      "version": "https://github.com/mseonKim/URP-VolumetricFog-ForwardPlus.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.8",
+        "com.unity.render-pipelines.universal": "14.0.8"
+      },
+      "hash": "09e96b62859e74ae52a41285f47d980b2e43c475"
+    },
+    "com.unity.universal-screenspacereflection": {
+      "version": "https://github.com/mseonKim/URP-ScreenSpaceReflection.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.0"
+      },
+      "hash": "3bfdb0b002eca966efea2ded2f0d6c563cdc45ac"
+    },
     "com.unity.visualscripting": {
       "version": "1.9.6",
       "depth": 0,
@@ -202,6 +237,13 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "jp.iridescent.stagelightmaneuver": {
+      "version": "https://github.com/murasaqi/Unity_StageLightManeuver.git?path=/jp.iridescenet.stagelightmaneuver",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "c94664074bc5fdeb0de9c5dc012e2ca294120eed"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",

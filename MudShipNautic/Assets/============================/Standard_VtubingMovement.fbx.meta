@@ -1,0 +1,959 @@
+fileFormatVersion: 2
+guid: d53d2f0c5d35e2b4899ef6e779b4985e
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Inbetween bone rotation
+      in configuration does not match rotation in animation file:\n\t'StudioROBOT_Neck1'
+      : rotation error = 1.386804 deg\n"
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'StudioROBOT_Neck1' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 485
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: StudioROBOT_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_LeftInHandIndex
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_LeftHandIndex1
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_LeftHandIndex2
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_LeftInHandMiddle
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_LeftHandMiddle1
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_LeftHandMiddle2
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_LeftInHandRing
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_LeftHandRing1
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_LeftHandRing2
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_LeftInHandPinky
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_LeftHandPinky1
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_LeftHandPinky2
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_RightInHandIndex
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_RightHandIndex1
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_RightHandIndex2
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_RightInHandMiddle
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_RightHandMiddle1
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_RightHandMiddle2
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_RightInHandRing
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_RightHandRing1
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_RightHandRing2
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_RightInHandPinky
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_RightHandPinky1
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_RightHandPinky2
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: StudioROBOT_Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Standard_VtubingMovement(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: STUDIOROBOT_GEO
+      parentName: Standard_VtubingMovement(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: StudioROBOT_Hips
+      parentName: Standard_VtubingMovement(Clone)
+      position: {x: -9.313226e-10, y: 0.9739233, z: 0.0034563108}
+      rotation: {x: 0.000000011641532, y: 1.5220123e-18, z: 1.3073986e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: StudioROBOT_RightUpLeg
+      parentName: StudioROBOT_Hips
+      position: {x: 0.11, y: 0, z: 0}
+      rotation: {x: -0.000000011641532, y: 0.0000000029103826, z: 8.6970414e-10, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: StudioROBOT_RightLeg
+      parentName: StudioROBOT_RightUpLeg
+      position: {x: -0, y: -0.45062, z: 0}
+      rotation: {x: -0, y: -0.0000000029103826, z: -0.0000000010913935, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: StudioROBOT_RightFoot
+      parentName: StudioROBOT_RightLeg
+      position: {x: -0, y: -0.42057997, z: 0}
+      rotation: {x: -0.0000000014551915, y: -1.364242e-10, z: -0.000000001264766,
+        w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: StudioROBOT_RightToeBase
+      parentName: StudioROBOT_RightFoot
+      position: {x: -0, y: -0.1000019, z: 0.1512031}
+      rotation: {x: -0, y: -0, z: -1.9852335e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: StudioROBOT_RightToe_End
+      parentName: StudioROBOT_RightToeBase
+      position: {x: -0, y: 0, z: 0.051228426}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: StudioROBOT_LeftUpLeg
+      parentName: StudioROBOT_Hips
+      position: {x: -0.11, y: 0, z: 0}
+      rotation: {x: -0.000000011641532, y: -0.0000000029103835, z: -1.534772e-10,
+        w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: StudioROBOT_LeftLeg
+      parentName: StudioROBOT_LeftUpLeg
+      position: {x: -0, y: -0.45062, z: 0}
+      rotation: {x: -0, y: 0.0000000023646867, z: 3.4106044e-11, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: StudioROBOT_LeftFoot
+      parentName: StudioROBOT_LeftLeg
+      position: {x: -0, y: -0.42057997, z: 0}
+      rotation: {x: 2.7090168e-19, y: 4.5474735e-10, z: -1.0800249e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: StudioROBOT_LeftToeBase
+      parentName: StudioROBOT_LeftFoot
+      position: {x: -0, y: -0.1000019, z: 0.1512031}
+      rotation: {x: -0, y: -0, z: -1.2319182e-28, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: StudioROBOT_LeftToe_End
+      parentName: StudioROBOT_LeftToeBase
+      position: {x: -0, y: 0, z: 0.051228426}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: StudioROBOT_Spine
+      parentName: StudioROBOT_Hips
+      position: {x: -0, y: 0.081200026, z: 0}
+      rotation: {x: -0.000000011641532, y: 2.2737371e-11, z: -4.4053643e-11, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: StudioROBOT_Spine1
+      parentName: StudioROBOT_Spine
+      position: {x: -0, y: 0.17979996, z: 0}
+      rotation: {x: -0, y: 2.5011104e-10, z: -2.4868996e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: StudioROBOT_Spine2
+      parentName: StudioROBOT_Spine1
+      position: {x: -0, y: 0.12760001, z: 0}
+      rotation: {x: -7.2759576e-10, y: -0.0000000010004442, z: -3.041123e-10, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: StudioROBOT_Neck
+      parentName: StudioROBOT_Spine2
+      position: {x: -0, y: 0.19139999, z: 0}
+      rotation: {x: 6.82121e-10, y: 7.2759576e-10, z: 0.0000000010757617, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: StudioROBOT_Neck1
+      parentName: StudioROBOT_Neck
+      position: {x: -0, y: 0.0425, z: 0}
+      rotation: {x: 4.5474735e-11, y: 7.2759565e-10, z: -3.48166e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: StudioROBOT_Head
+      parentName: StudioROBOT_Neck1
+      position: {x: -0, y: 0.0425, z: 0}
+      rotation: {x: -0, y: 0.0000000021827873, z: -7.958073e-11, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: StudioROBOT_Head_End
+      parentName: StudioROBOT_Head
+      position: {x: -0, y: 0.19126846, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: StudioROBOT_RightShoulder
+      parentName: StudioROBOT_Spine2
+      position: {x: 0.029000001, y: 0.13339996, z: 0}
+      rotation: {x: -0, y: 0.0000000036379788, z: 8.299139e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: StudioROBOT_RightArm
+      parentName: StudioROBOT_RightShoulder
+      position: {x: 0.161, y: -2.842171e-16, z: 0}
+      rotation: {x: -0.0000000021827873, y: -0.000000002910383, z: 2.728484e-10, w: 1}
+      scale: {x: 1.0000002, y: 0.9999998, z: 0.99999994}
+    - name: StudioROBOT_RightForeArm
+      parentName: StudioROBOT_RightArm
+      position: {x: 0.28, y: 0, z: 0}
+      rotation: {x: 0.000000005820766, y: -0, z: -6.366463e-10, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: StudioROBOT_RightHand
+      parentName: StudioROBOT_RightForeArm
+      position: {x: 0.26, y: 0, z: 0}
+      rotation: {x: 0.000000008731151, y: -0.000000023283064, z: 4.1308103e-16, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: StudioROBOT_RightHandThumb1
+      parentName: StudioROBOT_RightHand
+      position: {x: 0.02, y: -0.005, z: 0.025999999}
+      rotation: {x: -0.000000027260144, y: -0.42726344, z: 0.047114387, w: 0.9028988}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+    - name: StudioROBOT_RightHandThumb2
+      parentName: StudioROBOT_RightHandThumb1
+      position: {x: 0.03998001, y: -2.842171e-16, z: -4.440892e-18}
+      rotation: {x: 0.000000043655746, y: 0.000000021827873, z: -0.000000023283063,
+        w: 1}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000004}
+    - name: StudioROBOT_RightHandThumb3
+      parentName: StudioROBOT_RightHandThumb2
+      position: {x: 0.027779998, y: 2.842171e-16, z: 4.440892e-18}
+      rotation: {x: -0.0000000174623, y: -0.0000000014551915, z: 0.000000029103827,
+        w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: StudioROBOT_RightHandThumb_End
+      parentName: StudioROBOT_RightHandThumb3
+      position: {x: 0.02382, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -2.5410992e-17, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: StudioROBOT_RightInHandIndex
+      parentName: StudioROBOT_RightHand
+      position: {x: 0.035, y: 0.005520019, z: 0.02148}
+      rotation: {x: -1.7763568e-15, y: -0, z: 0.0000000058207656, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: StudioROBOT_RightHandIndex1
+      parentName: StudioROBOT_RightInHandIndex
+      position: {x: 0.056640014, y: -0.0009899902, z: 0.01085}
+      rotation: {x: -0.000000010991859, y: -0.055879693, z: -0.0050988956, w: 0.9984245}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: StudioROBOT_RightHandIndex2
+      parentName: StudioROBOT_RightHandIndex1
+      position: {x: 0.039300002, y: 0, z: 0}
+      rotation: {x: -0.000000023283064, y: 0.0000000014551915, z: -0.0000000043655746,
+        w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000001}
+    - name: StudioROBOT_RightHandIndex3
+      parentName: StudioROBOT_RightHandIndex2
+      position: {x: 0.022279968, y: 2.842171e-16, z: -4.440892e-18}
+      rotation: {x: 0.00000004656613, y: 0.000000016007105, z: 0.000000021827871,
+        w: 1}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.0000001}
+    - name: StudioROBOT_RightHandIndex_End
+      parentName: StudioROBOT_RightHandIndex3
+      position: {x: 0.0196, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -7.453889e-16, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.9999999}
+    - name: StudioROBOT_RightInHandMiddle
+      parentName: StudioROBOT_RightHand
+      position: {x: 0.03671997, y: 0.0056199646, z: 0.00822}
+      rotation: {x: -0.0017999477, y: -0.022739144, z: 0.023587381, w: 0.99946153}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: StudioROBOT_RightHandMiddle1
+      parentName: StudioROBOT_RightInHandMiddle
+      position: {x: 0.056180038, y: -0.00090988155, z: 0.0034099994}
+      rotation: {x: 1.3552527e-16, y: 0.000000023283064, z: -0.000000011641533, w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: StudioROBOT_RightHandMiddle2
+      parentName: StudioROBOT_RightHandMiddle1
+      position: {x: 0.04288002, y: 0, z: 0}
+      rotation: {x: -0.000000034924593, y: 0.00000004656613, z: 0.00000007348717,
+        w: 1}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1}
+    - name: StudioROBOT_RightHandMiddle3
+      parentName: StudioROBOT_RightHandMiddle2
+      position: {x: 0.026879959, y: 2.842171e-16, z: 0}
+      rotation: {x: 0.000000046566125, y: -0.00000003783498, z: -0.00000008076313,
+        w: 1}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000001}
+    - name: StudioROBOT_RightHandMiddle_End
+      parentName: StudioROBOT_RightHandMiddle3
+      position: {x: 0.02144, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: 1.7618284e-15, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999999}
+    - name: StudioROBOT_RightInHandRing
+      parentName: StudioROBOT_RightHand
+      position: {x: 0.036539994, y: 0.005839996, z: -0.0014}
+      rotation: {x: 0.0040474264, y: -0.0897956, z: 0.043312643, w: 0.9950098}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: StudioROBOT_RightHandRing1
+      parentName: StudioROBOT_RightInHandRing
+      position: {x: 0.050319977, y: -0.00024002074, z: -0.0051999995}
+      rotation: {x: -0.00000005029142, y: 0.0104711205, z: -0.00048367988, w: 0.9999451}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1}
+    - name: StudioROBOT_RightHandRing2
+      parentName: StudioROBOT_RightHandRing1
+      position: {x: 0.03737007, y: 2.842171e-16, z: -1.110223e-18}
+      rotation: {x: 0.000000011641532, y: -0.000000005820766, z: 0.000000013096722,
+        w: 1}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1}
+    - name: StudioROBOT_RightHandRing3
+      parentName: StudioROBOT_RightHandRing2
+      position: {x: 0.025929946, y: 0, z: 1.110223e-18}
+      rotation: {x: 0.000000011641532, y: -0.0000000058207643, z: -0.000000010186339,
+        w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: StudioROBOT_RightHandRing_End
+      parentName: StudioROBOT_RightHandRing3
+      position: {x: 0.02016, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: 6.7762616e-17, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: StudioROBOT_RightInHandPinky
+      parentName: StudioROBOT_RightHand
+      position: {x: 0.034319993, y: 0.0051000975, z: -0.013049999}
+      rotation: {x: 0.013291798, y: -0.16557789, z: 0.05382882, w: 0.9846369}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: StudioROBOT_RightHandPinky1
+      parentName: StudioROBOT_RightInHandPinky
+      position: {x: 0.044960022, y: -0.00024002074, z: -0.011839999}
+      rotation: {x: 0.00000010523945, y: 0.09146359, z: -0.001853226, w: 0.99580675}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: StudioROBOT_RightHandPinky2
+      parentName: StudioROBOT_RightHandPinky1
+      position: {x: 0.029929962, y: 0, z: -4.440892e-18}
+      rotation: {x: 0.000000011641532, y: 0.000000032014214, z: 0.00000003783498,
+        w: 1}
+      scale: {x: 0.9999997, y: 0.99999994, z: 1}
+    - name: StudioROBOT_RightHandPinky3
+      parentName: StudioROBOT_RightHandPinky2
+      position: {x: 0.018909987, y: 0, z: 4.440892e-18}
+      rotation: {x: 0.000000005820766, y: -0.000000023283064, z: -0.00000001600711,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: StudioROBOT_RightHandPinky_End
+      parentName: StudioROBOT_RightHandPinky3
+      position: {x: 0.01786, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: 1.3552527e-16, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1}
+    - name: StudioROBOT_LeftShoulder
+      parentName: StudioROBOT_Spine2
+      position: {x: -0.029000001, y: 0.13339996, z: 0}
+      rotation: {x: 7.2759576e-10, y: 0.0000000014551915, z: 0.0000000029274358, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: StudioROBOT_LeftArm
+      parentName: StudioROBOT_LeftShoulder
+      position: {x: -0.161, y: -2.842171e-16, z: 0}
+      rotation: {x: -0, y: -0.0000000010913936, z: -0.000000005371703, w: 1}
+      scale: {x: 1.0000004, y: 1, z: 1.0000001}
+    - name: StudioROBOT_LeftForeArm
+      parentName: StudioROBOT_LeftArm
+      position: {x: -0.28, y: 0, z: 0}
+      rotation: {x: 3.0107306e-17, y: -0.000000005456968, z: 7.2759576e-10, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: StudioROBOT_LeftHand
+      parentName: StudioROBOT_LeftForeArm
+      position: {x: -0.26, y: 0, z: 0}
+      rotation: {x: 0.000000023283064, y: 0.000000017462298, z: 0.000000010913936,
+        w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: StudioROBOT_LeftHandThumb1
+      parentName: StudioROBOT_LeftHand
+      position: {x: -0.02, y: -0.005, z: 0.025999999}
+      rotation: {x: -0.000000011982467, y: 0.4272637, z: -0.047114585, w: 0.9028986}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1.0000007}
+    - name: StudioROBOT_LeftHandThumb2
+      parentName: StudioROBOT_LeftHandThumb1
+      position: {x: -0.03998001, y: -2.842171e-16, z: -4.440892e-18}
+      rotation: {x: 0.000000023283063, y: 0.000000026193451, z: 0.000000026193442,
+        w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: StudioROBOT_LeftHandThumb3
+      parentName: StudioROBOT_LeftHandThumb2
+      position: {x: -0.027779998, y: 2.842171e-16, z: 4.440892e-18}
+      rotation: {x: -0.00000004656613, y: -0.000000069849186, z: 0.000000026193451,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: StudioROBOT_LeftHandThumb_End
+      parentName: StudioROBOT_LeftHandThumb3
+      position: {x: -0.026201999, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: 3.0010758e-16, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: StudioROBOT_LeftInHandIndex
+      parentName: StudioROBOT_LeftHand
+      position: {x: -0.035, y: 0.005520019, z: 0.02148}
+      rotation: {x: -0.000000011641534, y: -0, z: -0.0000000058207665, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: StudioROBOT_LeftHandIndex1
+      parentName: StudioROBOT_LeftInHandIndex
+      position: {x: -0.056640014, y: -0.0009899902, z: 0.01085}
+      rotation: {x: 0.00000003470694, y: 0.05587982, z: 0.005098873, w: 0.9984245}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: StudioROBOT_LeftHandIndex2
+      parentName: StudioROBOT_LeftHandIndex1
+      position: {x: -0.039300002, y: 0, z: 0}
+      rotation: {x: -0.00000004656613, y: 0.0000000023646862, z: 0.000000026193446,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: StudioROBOT_LeftHandIndex3
+      parentName: StudioROBOT_LeftHandIndex2
+      position: {x: -0.022279968, y: 2.842171e-16, z: -4.440892e-18}
+      rotation: {x: -0, y: 0.0000000034560808, z: -0.000000014551914, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: StudioROBOT_LeftHandIndex_End
+      parentName: StudioROBOT_LeftHandIndex3
+      position: {x: -0.0196, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1}
+    - name: StudioROBOT_LeftInHandMiddle
+      parentName: StudioROBOT_LeftHand
+      position: {x: -0.03671997, y: 0.0056199646, z: 0.00822}
+      rotation: {x: -0.0017999777, y: 0.022739477, z: -0.023587663, w: 0.99946153}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: StudioROBOT_LeftHandMiddle1
+      parentName: StudioROBOT_LeftInHandMiddle
+      position: {x: -0.056180038, y: -0.00090988155, z: 0.0034099994}
+      rotation: {x: -0.000000034924597, y: -0.000000017462298, z: -0.000000017462298,
+        w: 1}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1}
+    - name: StudioROBOT_LeftHandMiddle2
+      parentName: StudioROBOT_LeftHandMiddle1
+      position: {x: -0.04288002, y: 0, z: 0}
+      rotation: {x: 0.00000002328307, y: -0.000000017462295, z: -0.000000040745356,
+        w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: StudioROBOT_LeftHandMiddle3
+      parentName: StudioROBOT_LeftHandMiddle2
+      position: {x: -0.026879959, y: 2.842171e-16, z: 0}
+      rotation: {x: 0.00000001164153, y: 0.000000023283063, z: 0.00000006402842, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: StudioROBOT_LeftHandMiddle_End
+      parentName: StudioROBOT_LeftHandMiddle3
+      position: {x: -0.02144, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -2.710505e-16, w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: StudioROBOT_LeftInHandRing
+      parentName: StudioROBOT_LeftHand
+      position: {x: -0.036539994, y: 0.005839996, z: -0.0014}
+      rotation: {x: 0.004047439, y: 0.089795984, z: -0.043312877, w: 0.9950097}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: StudioROBOT_LeftHandRing1
+      parentName: StudioROBOT_LeftInHandRing
+      position: {x: -0.050319977, y: -0.00024002074, z: -0.0051999995}
+      rotation: {x: 0.000000008381903, y: -0.01047118, z: 0.00048313366, w: 0.9999451}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: StudioROBOT_LeftHandRing2
+      parentName: StudioROBOT_LeftHandRing1
+      position: {x: -0.03737007, y: 2.842171e-16, z: -1.110223e-18}
+      rotation: {x: -1.6238909e-15, y: -0.000000014551915, z: 0.000000002910383, w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: StudioROBOT_LeftHandRing3
+      parentName: StudioROBOT_LeftHandRing2
+      position: {x: -0.025929946, y: 0, z: 1.110223e-18}
+      rotation: {x: -0.0000000058207656, y: -0.000000023283064, z: 0.000000013096724,
+        w: 1}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1}
+    - name: StudioROBOT_LeftHandRing_End
+      parentName: StudioROBOT_LeftHandRing3
+      position: {x: -0.02016, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -1.3552526e-16, w: 1}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1}
+    - name: StudioROBOT_LeftInHandPinky
+      parentName: StudioROBOT_LeftHand
+      position: {x: -0.034319993, y: 0.0051000975, z: -0.013049999}
+      rotation: {x: 0.013291829, y: 0.16557814, z: -0.053829025, w: 0.98463684}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: StudioROBOT_LeftHandPinky1
+      parentName: StudioROBOT_LeftInHandPinky
+      position: {x: -0.044960022, y: -0.00024002074, z: -0.011839999}
+      rotation: {x: -0.00000022631139, y: -0.09146423, z: 0.0018548156, w: 0.9958067}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: StudioROBOT_LeftHandPinky2
+      parentName: StudioROBOT_LeftHandPinky1
+      position: {x: -0.029929962, y: 0, z: -4.440892e-18}
+      rotation: {x: -0.000000015279511, y: -1.7763568e-15, z: 0.000000012369129, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: StudioROBOT_LeftHandPinky3
+      parentName: StudioROBOT_LeftHandPinky2
+      position: {x: -0.018909987, y: 0, z: 4.440892e-18}
+      rotation: {x: 0.000000009458745, y: 0.000000011641532, z: -0.000000029831426,
+        w: 1}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1}
+    - name: StudioROBOT_LeftHandPinky_End
+      parentName: StudioROBOT_LeftHandPinky3
+      position: {x: -0.01786, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -1.1011428e-16, w: 1}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
