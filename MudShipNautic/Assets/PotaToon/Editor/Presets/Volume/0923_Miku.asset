@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c2a72b083cd504da06b235a6ddb1b3, type: 3}
+  m_Name: 0923_Miku
+  m_EditorClassIdentifier: 
+  mode: 1
+  transparentShadow: 1
+  charShadowDirOffset: {x: 0, y: 0, z: 0}
+  followLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  maxToonBrightness: 10
+  bias: 10
+  normalBias: 0
+  quality: 3
+  textureScale: 16
+  transparentTextureScale: 16
+  shadowCullingDistance: 2
+  oit: 1
+  oitMode: 0
+  charPostProcessing: 1
+  charScreenOutline: 0
+  charScreenOutlineExcludeInnerLines: 0
+  charScreenOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  charScreenOutlineThickness: 0.49
+  charScreenOutlineEdgeStrength: 0.23
+  charPostExposure: 0.964
+  charGammaAdjust: 0
+  charToneMapping: 5
+  charContrast: 79.7
+  charColorFilter: {r: 1, g: 1, b: 1, a: 1}
+  charHueShift: 0
+  charSaturation: 28.3
+  screenRimWidth: 0.135
+  screenRimColor: {r: 0.52994335, g: 0.5808179, b: 0.72327036, a: 1}
+  envPostProcessing: 0
+  envToneMapping: 0
+  envPostExposure: 1
+  envContrast: 0
+  envColorFilter: {r: 1, g: 1, b: 1, a: 1}
+  envHueShift: 0
+  envSaturation: 0
+  charToeStrength: 0
+  charToeLength: 0.5
+  charShoulderStrength: 0
+  charShoulderLength: 0.5
+  charShoulderAngle: 0
+  charGamma: 1
+  envToeStrength: 0
+  envToeLength: 0.5
+  envShoulderStrength: 0
+  envShoulderLength: 0.5
+  envShoulderAngle: 0
+  envGamma: 1
+  charBloom: 1
+  threshold: 1
+  intensity: 8.74
+  scatter: 0.7
+  clamp: 65472
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  highQualityFiltering: 1
+  downscale: 0
+  maxIterations: 6
+  dirtTexture: {fileID: 0}
+  dirtIntensity: 0
+  envBloom: 0
+  envBloomThreshold: 0.9
+  envBloomIntensity: 0
+  envBloomScatter: 0.7
+  envBloomClamp: 65472
+  envBloomTint: {r: 1, g: 1, b: 1, a: 1}
+  envBloomHighQualityFiltering: 0
+  envBloomDownscale: 0
+  envBloomMaxIterations: 6
+  envBloomDirtTexture: {fileID: 0}
+  envBloomDirtIntensity: 0
