@@ -16,7 +16,6 @@ Material:
   - _BLENDOUTLINEMAINTEX_ON
   - _GLITTERAPPLYTRANSPARENCY_ON
   - _RECEIVELIGHTSHADOW_ON
-  - _USEMIDTONE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -214,7 +213,7 @@ Material:
     - _BlendModePreserveSpecular: 1
     - _BlendOutlineMainTex: 1
     - _BumpScale: 1
-    - _CharShadowSmoothnessOffset: 0.5
+    - _CharShadowSmoothnessOffset: 0
     - _CharShadowType: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -343,7 +342,7 @@ Material:
     - _UseFaceSDFShadow: 0
     - _UseGlitter: 0
     - _UseHairHighLight: 0
-    - _UseMidTone: 1
+    - _UseMidTone: 0
     - _UseNormalMap: 0
     - _UseOutlineNormalMap: 0
     - _UseShadeMap: 0
@@ -354,7 +353,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0.231, g: 0.231, b: 0.231, a: 1}
     - _FaceForward: {r: 0, g: 0, b: 1, a: 0}
     - _FaceUp: {r: 0, g: 1, b: 0, a: 0}
     - _GlitterColor: {r: 1, g: 1, b: 1, a: 1}
@@ -367,10 +366,10 @@ Material:
     - _MatCapColor6: {r: 1, g: 1, b: 1, a: 1}
     - _MatCapColor7: {r: 1, g: 1, b: 1, a: 1}
     - _MatCapColor8: {r: 1, g: 1, b: 1, a: 1}
-    - _MidColor: {r: 0.04339999, g: 0.0545857, b: 0.2, a: 1}
+    - _MidColor: {r: 0.5, g: 0.2, b: 0.2, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ShadeColor: {r: 0.6433663, g: 0.66481185, b: 0.72199994, a: 1}
+    - _ShadeColor: {r: 0.75, g: 0.75, b: 0.75, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
