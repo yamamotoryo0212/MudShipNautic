@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53f8f22c3df675e4ebb7549527109555, type: 3}
   m_Name: FPVolumetricFog
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   config: {fileID: 11400000, guid: 27e9614d6e4dc3540b3900969819cf7e, type: 2}
 --- !u!114 &-4478895494776390267
 MonoBehaviour:
@@ -39,8 +39,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53f8f22c3df675e4ebb7549527109555, type: 3}
   m_Name: FPVolumetricFog
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   config: {fileID: 11400000, guid: b9164a06de747df43a25e6947e36125e, type: 2}
+--- !u!114 &-1605783191908984394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ec43bb34e3ff542892e0b797881487, type: 3}
+  m_Name: ScreenSpaceReflection
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  settings: {fileID: 11400000, guid: 46315cf78a9f9024fbf58a12c57c16be, type: 2}
+  renderingPath: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72,7 +87,8 @@ MonoBehaviour:
   - {fileID: 1535230564999320534}
   - {fileID: -2418152858768150076}
   - {fileID: -8564260525406018746}
-  m_RendererFeatureMap: ad6b866f10d7b46c857dc11747c4d7c153ae7cdd083ae32fd6531b9b103c4e15c4718770c9fe70de462346736da22589
+  - {fileID: -1605783191908984394}
+  m_RendererFeatureMap: ad6b866f10d7b46c857dc11747c4d7c153ae7cdd083ae32fd6531b9b103c4e15c4718770c9fe70de462346736da22589b6d9f8dbb11cb7e9
   m_UseNativeRenderPass: 1
   xrSystemData: {fileID: 0}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
@@ -110,7 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31ec43bb34e3ff542892e0b797881487, type: 3}
   m_Name: ScreenSpaceReflection
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   settings: {fileID: 11400000, guid: c9c669cdb1518944fa2aac8ed3521192, type: 2}
   renderingPath: 0
 --- !u!114 &3450665549246017107
@@ -125,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3e6b9910358046a1a7a6e84c3169447, type: 3}
   m_Name: VolumetricLightsTranslucentShadowMapFeature
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   ignoreOverlayCamera: 1
 --- !u!114 &6614685666330896222
 MonoBehaviour:

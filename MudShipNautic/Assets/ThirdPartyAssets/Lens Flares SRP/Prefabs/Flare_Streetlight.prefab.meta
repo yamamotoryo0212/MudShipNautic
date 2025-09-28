@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 42179a93bf5a0c54ba415bcb27729f87
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 198361
+  packageName: Lens Flares URP/HDRP
+  packageVersion: 1.0.1
+  assetPath: Assets/Lens Flares SRP/Prefabs/Flare_Streetlight.prefab
+  uploadId: 460761

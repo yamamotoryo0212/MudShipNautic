@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a1f8c590a3afedc4d874a61d4cf915f2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 198361
+  packageName: Lens Flares URP/HDRP
+  packageVersion: 1.0.1
+  assetPath: Assets/Lens Flares SRP/Prefabs/Flare_Torch.prefab
+  uploadId: 460761

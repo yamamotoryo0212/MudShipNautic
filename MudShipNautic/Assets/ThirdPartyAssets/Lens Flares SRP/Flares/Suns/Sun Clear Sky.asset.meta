@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 75827040518a28b40beaba096b0e2375
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 198361
+  packageName: Lens Flares URP/HDRP
+  packageVersion: 1.0.1
+  assetPath: Assets/Lens Flares SRP/Flares/Suns/Sun Clear Sky.asset
+  uploadId: 460761

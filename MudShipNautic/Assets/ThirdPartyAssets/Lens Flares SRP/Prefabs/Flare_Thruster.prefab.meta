@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7a81b4a94c5d4f948841ee3e1276c69a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 198361
+  packageName: Lens Flares URP/HDRP
+  packageVersion: 1.0.1
+  assetPath: Assets/Lens Flares SRP/Prefabs/Flare_Thruster.prefab
+  uploadId: 460761

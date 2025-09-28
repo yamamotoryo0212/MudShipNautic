@@ -199,6 +199,48 @@ MonoBehaviour:
   texture:
     m_OverrideState: 1
     m_Value: {fileID: 0}
+--- !u!114 &-5852040079399464891
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df4e1e32f0469e42859a646219b6408, type: 3}
+  m_Name: ScreenSpaceReflections
+  m_EditorClassIdentifier: 
+  active: 1
+  <displayName>k__BackingField: 
+  enabled:
+    <debugId>k__BackingField: enabled
+    m_OverrideState: 1
+    m_Value: 0
+  downsample:
+    <debugId>k__BackingField: downsample
+    m_OverrideState: 1
+    m_Value: 2
+  samples:
+    <debugId>k__BackingField: samples
+    m_OverrideState: 1
+    m_Value: 8
+  steps:
+    <debugId>k__BackingField: steps
+    m_OverrideState: 1
+    m_Value: 125
+  stepSize:
+    <debugId>k__BackingField: stepSize
+    m_OverrideState: 1
+    m_Value: 0.1
+  thickness:
+    <debugId>k__BackingField: thickness
+    m_OverrideState: 1
+    m_Value: 0.1
+  minSmoothness:
+    <debugId>k__BackingField: minSmoothness
+    m_OverrideState: 1
+    m_Value: 0.1
 --- !u!114 &-5520245016509672950
 MonoBehaviour:
   m_ObjectHideFlags: 3
