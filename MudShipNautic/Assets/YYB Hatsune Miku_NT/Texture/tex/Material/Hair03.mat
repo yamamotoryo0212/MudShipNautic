@@ -329,8 +329,8 @@ Material:
     - _ReverseHairHighLightTex: 0
     - _RimMaskCH: 1
     - _RimMaskUV: 0
-    - _RimPower: 0.183
-    - _RimSmoothness: 0.3
+    - _RimPower: 0.088
+    - _RimSmoothness: 0.034
     - _SDFBlur: 0
     - _SDFOffset: 0
     - _SDFReverse: 0

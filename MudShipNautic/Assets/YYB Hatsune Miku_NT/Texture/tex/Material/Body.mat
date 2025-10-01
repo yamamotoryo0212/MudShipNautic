@@ -52,7 +52,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 2d6e757fdb3aa4e48ba9323d5443c871, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMask:
@@ -315,8 +315,8 @@ Material:
     - _ReverseHairHighLightTex: 0
     - _RimMaskCH: 0
     - _RimMaskUV: 0
-    - _RimPower: 0.373
-    - _RimSmoothness: 0.1
+    - _RimPower: 0.273
+    - _RimSmoothness: 0.5
     - _SDFBlur: 0
     - _SDFOffset: 0
     - _SDFReverse: 0
@@ -353,7 +353,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0.54901963, g: 0.47380394, b: 0.47380394, a: 1}
+    - _EmissionColor: {r: 0.81761, g: 0.81761, b: 0.81761, a: 1}
     - _FaceForward: {r: 0, g: 0, b: 1, a: 0}
     - _FaceUp: {r: 0, g: 1, b: 0, a: 0}
     - _GlitterColor: {r: 1, g: 1, b: 1, a: 1}
@@ -368,8 +368,8 @@ Material:
     - _MatCapColor8: {r: 1, g: 1, b: 1, a: 1}
     - _MidColor: {r: 0.04339999, g: 0.0545857, b: 0.2, a: 1}
     - _OutlineColor: {r: 0.9308176, g: 0.70543087, b: 0.70543087, a: 1}
-    - _RimColor: {r: 1, g: 1, b: 1, a: 0.21176471}
-    - _ShadeColor: {r: 0.953, g: 0.894867, b: 0.894867, a: 1}
+    - _RimColor: {r: 0.9245283, g: 0.70066446, b: 0.70066446, a: 1}
+    - _ShadeColor: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
