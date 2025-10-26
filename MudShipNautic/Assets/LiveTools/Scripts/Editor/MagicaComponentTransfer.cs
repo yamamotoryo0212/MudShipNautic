@@ -50,25 +50,25 @@ public class MagicaComponentTransfer : EditorWindow
 
 
 		return;
-		var components = sourceObject.GetComponents<MonoBehaviour>();
-		foreach (var component in components)
-		{
-			var type = component.GetType();
-			if (type.Namespace != null && type.Namespace.StartsWith("MagicaCloth"))
-			{
-				var existingComponent = targetObject.GetComponent(type);
-				if (existingComponent == null)
-				{
-					UnityEditorInternal.ComponentUtility.CopyComponent(component);
-					UnityEditorInternal.ComponentUtility.PasteComponentAsNew(targetObject);
-				}
-				else
-				{
-					Debug.LogWarning($"Target object already has a component of type {type.Name}. Skipping.");
-				}
-			}
-		}
-		Debug.Log("Component transfer complete.");
+		//var components = sourceObject.GetComponents<MonoBehaviour>();
+		//foreach (var component in components)
+		//{
+		//	var type = component.GetType();
+		//	if (type.Namespace != null && type.Namespace.StartsWith("MagicaCloth"))
+		//	{
+		//		var existingComponent = targetObject.GetComponent(type);
+		//		if (existingComponent == null)
+		//		{
+		//			UnityEditorInternal.ComponentUtility.CopyComponent(component);
+		//			UnityEditorInternal.ComponentUtility.PasteComponentAsNew(targetObject);
+		//		}
+		//		else
+		//		{
+		//			Debug.LogWarning($"Target object already has a component of type {type.Name}. Skipping.");
+		//		}
+		//	}
+		//}
+		//Debug.Log("Component transfer complete.");
 	}
 }
 #endif

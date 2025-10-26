@@ -88,7 +88,8 @@ MonoBehaviour:
   - {fileID: -2418152858768150076}
   - {fileID: -8564260525406018746}
   - {fileID: -1605783191908984394}
-  m_RendererFeatureMap: ad6b866f10d7b46c857dc11747c4d7c153ae7cdd083ae32fd6531b9b103c4e15c4718770c9fe70de462346736da22589b6d9f8dbb11cb7e9
+  - {fileID: 7526591688024570975}
+  m_RendererFeatureMap: ad6b866f10d7b46c857dc11747c4d7c153ae7cdd083ae32fd6531b9b103c4e15c4718770c9fe70de462346736da22589b6d9f8dbb11cb7e95fbc1c3e43d37368
   m_UseNativeRenderPass: 1
   xrSystemData: {fileID: 0}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
@@ -172,6 +173,26 @@ MonoBehaviour:
   m_Active: 1
   volumetricSpotlightsShader: {fileID: 4800000, guid: 771cfb7963a5b394cb9f13e8f79ce300, type: 3}
   material: {fileID: 0}
+--- !u!114 &7526591688024570975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cbabd8e2cb2e4f8a930752453adf79a, type: 3}
+  m_Name: Beautify
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  shader: {fileID: 4800000, guid: 55d70ca4ea7504a38b66170bbe587b2f, type: 3}
+  renderPassEvent: 500
+  ignorePostProcessingOption: 0
+  clearXRColorBuffer: 0
+  cameraLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &7833122117494664109
 MonoBehaviour:
   m_ObjectHideFlags: 0

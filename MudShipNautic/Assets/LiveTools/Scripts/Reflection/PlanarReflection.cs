@@ -11,6 +11,7 @@ public class PlanarReflectionView : MonoBehaviour
 	[SerializeField] private Skybox _mainSkybox;
 	[SerializeField] private Skybox _reflectionSkybox;
 
+
 	[Header("Render Settings")]
 	[SerializeField, Range(0.3f, 1.0f)] private float _resolutionScale = 1.0f;// テクスチャ解像度（数値を上げるほど高負荷） 0.3f: 低解像度, 1.0f: フル解像度    
 

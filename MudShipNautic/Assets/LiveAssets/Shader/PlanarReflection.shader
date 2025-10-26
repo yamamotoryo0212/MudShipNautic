@@ -1,7 +1,8 @@
-﻿Shader "MudShip/PlanarReflectionTransparent"
+﻿Shader "MudShip/PlanarReflectionTransparent (Toggle Clip)"
 {
     Properties
     {
+        // 既存のプロパティ
         _Color("Base Color", Color) = (1, 1, 1, 1)
         _MainTex("Main Texture", 2D) = "white" {}
         _ReflectionTex("Reflection Texture", 2D) = "white" {}
@@ -9,6 +10,11 @@
         _Roughness("Roughness", Range(0, 1)) = 0.0
         _BlurRadius("Blur Radius", Range(0, 10)) = 2.5
         _Alpha("Alpha", Range(0, 1)) = 1.0
+        
+        // --- Alpha Clipping用のトグルとCutoffを追加 (既存機能の変更なし) ---
+        [Toggle(_ALPHACLIP_ON)] _AlphaClipToggle("Alpha Clipping (ON/OFF)", Float) = 0
+        [Gamma] _Cutoff("Alpha Cutoff", Range(0, 1)) = 0.5
+        // ---------------------------------------------------------------------
     }
     SubShader
     {
@@ -24,6 +30,10 @@
             #pragma vertex vert
             #pragma fragment frag
             #include "UnityCG.cginc"
+            
+            // --- トグル機能のためのシェーダーフィーチャーを追加 ---
+            #pragma shader_feature _ALPHACLIP_ON
+            // --------------------------------------------------------
 
             struct appdata
             {
@@ -48,6 +58,9 @@
             float _Roughness;
             float _BlurRadius;
             float _Alpha;
+            // --- 追加したパラメータ ---
+            float _Cutoff;
+            // --------------------------
 
             float gaussianWeight(float x, float sigma)
             {
@@ -66,7 +79,7 @@
                 float totalWeight = 0.0;
                 float2 texelSize = float2(1.0 / _ScreenParams.x, 1.0 / _ScreenParams.y);
                 
-                int sampleCount = (int)lerp(3, 9, _Roughness);
+                int sampleCount = (int)lerp(3, 9, _Roughness); 
                 float stepSize = blurAmount * _BlurRadius;
                 float sigma = stepSize * 0.5;
                 
@@ -94,39 +107,47 @@
             {
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
-                o.screenPos = ComputeScreenPos(o.vertex);
-                o.uv = v.texcoord;
+                o.screenPos = ComputeScreenPos(o.vertex); 
+                o.uv = TRANSFORM_TEX(v.texcoord, _MainTex);
                 return o;
             }
 
             fixed4 frag(v2f i) : SV_Target
             {
-                // メインテクスチャをサンプリング
+                // メインテクスチャをサンプリング (既存ロジック)
                 float2 screenUV = i.screenPos.xy / i.screenPos.w;
                 half4 tex_col = tex2D(_MainTex, i.uv);
                 
-                // ベースカラーを適用
+                // ベースカラーを適用 (既存ロジック)
                 fixed4 baseColor = tex_col * _Color;
                 
-                // screenUV の X を反転して鏡面UVとする
+                // 反射UVを計算 (既存ロジック)
                 float2 reflectionUV = float2(1 - screenUV.x, screenUV.y);
                 
-                // ガウスぼかしを適用
+                // ガウスぼかしを適用 (既存ロジック)
                 half4 reflectionColor = gaussianBlur(_ReflectionTex, reflectionUV, _Roughness);
                 
-                // 反射色にもベースカラーを適用（色調を統一）
+                // 反射色にもベースカラーを適用 (既存ロジック)
                 fixed4 tintedReflection = reflectionColor * _Color;
                 
-                // 最終的な色の計算
-                fixed4 col;
+                // アルファ値の計算 (既存ロジック)
+                float baseAlpha = tex_col.a * _Color.a * _Alpha;
                 
-                // RGBは反射とベースのブレンド（両方にBaseColorが適用される）
+                // --- トグルがONの時だけ Alpha Clipping を実行 ---
+                #if _ALPHACLIP_ON
+                    // ベースアルファがCutoff未満の場合、ピクセルを破棄
+                    clip(baseAlpha - _Cutoff);
+                #endif
+                // ----------------------------------------------
+                
+                // 最終的な色の計算 (既存ロジック)
+                fixed4 col;
+                float reflectionAlpha = tintedReflection.a; 
+                
+                // RGBは反射とベースのブレンド (既存ロジック)
                 col.rgb = lerp(baseColor.rgb, tintedReflection.rgb, _reflectionFactor);
                 
-                // アルファ値の計算：BaseColorのアルファも考慮
-                float baseAlpha = tex_col.a * _Color.a * _Alpha; // _Color.aを正しく適用
-                float reflectionAlpha = tintedReflection.a; // 反射部分のアルファ（BaseColor適用済み）
-                
+                // アルファ値もブレンド (既存ロジック)
                 col.a = lerp(baseAlpha, reflectionAlpha, _reflectionFactor);
 
                 return col;

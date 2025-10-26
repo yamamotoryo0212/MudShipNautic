@@ -223,7 +223,9 @@ Material:
     - _2DFaceShadowWidth: 0.1
     - _AOMapCH: 1
     - _AddPrecomputedVelocity: 0
+    - _Alpha: 1
     - _AlphaClip: 1
+    - _AlphaClipToggle: 0
     - _AlphaToMask: 1
     - _AutoRenderQueue: 1
     - _BaseMapUV: 0
@@ -231,7 +233,7 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BlendOutlineMainTex: 1
-    - _BlurRadius: 2.5
+    - _BlurRadius: 0.1
     - _BumpScale: 1
     - _CharShadowSmoothnessOffset: 0
     - _CharShadowType: 0
@@ -240,7 +242,7 @@ Material:
     - _ClippingMaskCH: 1
     - _ClippingMaskUV: 0
     - _Cull: 0
-    - _Cutoff: 1
+    - _Cutoff: 0
     - _DebugFaceSDF: 0
     - _DebugMode: 0
     - _DepthBias: -0.23
@@ -352,7 +354,7 @@ Material:
     - _RimMaskUV: 0
     - _RimPower: 0.5
     - _RimSmoothness: 0.25
-    - _Roughness: 1
+    - _Roughness: 0
     - _SDFBlur: 0
     - _SDFOffset: 0
     - _SDFReverse: 0
@@ -396,7 +398,7 @@ Material:
     m_Colors:
     - _AmbientColor: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 0.15723258, g: 0.15723258, b: 0.15723258, a: 1}
-    - _Color: {r: 0, g: 0, b: 0, a: 0.22352941}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FaceForward: {r: 0, g: 0, b: 1, a: 0}
     - _FaceUp: {r: 0, g: 1, b: 0, a: 0}

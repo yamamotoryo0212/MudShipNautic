@@ -12,7 +12,7 @@ public class RenderTextureCombiner : MonoBehaviour
 	// チャンネル合成用のマテリアル (カスタムシェーダーを使用)
 	public Material channelMergeMaterial;
 
-	void Update()
+	void Awake()
 	{
 		// 実行テスト
 		if (textureA != null && textureB != null && resultTexture != null && channelMergeMaterial != null)
@@ -23,6 +23,10 @@ public class RenderTextureCombiner : MonoBehaviour
 		{
 			Debug.LogError("すべてのRenderTextureとマテリアルをインスペクターに設定してください。");
 		}
+	}
+	private void Update()
+	{
+		Graphics.Blit(null, resultTexture, channelMergeMaterial);
 	}
 
 	public void MergeTextures()
@@ -51,11 +55,20 @@ public class RenderTextureCombiner : MonoBehaviour
 		RenderTexture.active = resultTexture;
 
 		// Blitを使用して、シェーダーの結果をRenderTextureCに焼き込む
-		Graphics.Blit(null, resultTexture, channelMergeMaterial);
+		
 
 		// アクティブなレンダーターゲットを元に戻す
 		RenderTexture.active = null;
 
 		Debug.Log("RenderTextureのチャンネル合成が完了し、結果が resultTexture に書き込まれました。");
+	}
+
+	private void OnDestroy()
+	{
+	
+		// 使用後にRenderTextureを解放してメモリリークを防ぐ
+		if (textureA != null) textureA.Release();
+		if (textureB != null) textureB.Release();
+		if (resultTexture != null) resultTexture.Release();
 	}
 }
