@@ -24,6 +24,13 @@
       },
       "hash": "ece3272762f2148dd8d3e658ec04fcbd79d4d97e"
     },
+    "com.llcheesell.led_screen_shader": {
+      "version": "https://github.com/llcheesell/LEDScreenShader.git?path=/Assets/LEDScreenShader#develop",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "e4e0e578145e2cda11f3ebcb0b1480f65190d53b"
+    },
     "com.unity.ai.navigation": {
       "version": "2.0.6",
       "depth": 0,
@@ -310,6 +317,13 @@
       "source": "git",
       "dependencies": {},
       "hash": "c94664074bc5fdeb0de9c5dc012e2ca294120eed"
+    },
+    "jp.keijiro.klak.hap": {
+      "version": "https://github.com/keijiro/KlakHap.git?path=Packages/jp.keijiro.klak.hap",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "8cc03262e5260abc86c5cdfe60fec9e01228752b"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",

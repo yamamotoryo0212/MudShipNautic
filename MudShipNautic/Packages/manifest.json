@@ -2,6 +2,7 @@
   "dependencies": {
     "com.cqf.urpvolumetricfog": "https://github.com/CristianQiu/Unity-URP-Volumetric-Light.git",
     "com.hecomi.ulipsync": "https://github.com/hecomi/uLipSync.git#upm",
+    "com.llcheesell.led_screen_shader": "https://github.com/llcheesell/LEDScreenShader.git?path=/Assets/LEDScreenShader#develop",
     "com.unity.ai.navigation": "2.0.6",
     "com.unity.cinemachine": "3.1.4",
     "com.unity.collab-proxy": "2.7.1",
@@ -20,6 +21,7 @@
     "com.unity.universal-screenspacereflection": "https://github.com/mseonKim/URP-ScreenSpaceReflection.git",
     "com.unity.visualscripting": "1.9.6",
     "jp.iridescent.stagelightmaneuver": "https://github.com/murasaqi/Unity_StageLightManeuver.git?path=/jp.iridescenet.stagelightmaneuver",
+    "jp.keijiro.klak.hap": "https://github.com/keijiro/KlakHap.git?path=Packages/jp.keijiro.klak.hap",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
@@ -52,5 +54,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "Keijiro",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "jp.keijiro"
+      ]
+    }
+  ]
 }

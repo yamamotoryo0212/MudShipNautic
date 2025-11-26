@@ -1,4 +1,4 @@
-Shader "Custom/Channel Merger"
+Shader "MudShip/Channel Merger"
 {
     Properties
     {

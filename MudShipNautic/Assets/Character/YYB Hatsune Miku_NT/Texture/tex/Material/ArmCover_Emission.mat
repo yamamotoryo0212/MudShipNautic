@@ -35,7 +35,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: 4121
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
@@ -222,7 +222,7 @@ Material:
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
-    - _AutoRenderQueue: 1
+    - _AutoRenderQueue: 0
     - _BaseMapUV: 0
     - _BaseStep: 0.5
     - _Blend: 0

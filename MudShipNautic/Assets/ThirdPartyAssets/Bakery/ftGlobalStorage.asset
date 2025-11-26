@@ -607,7 +607,160 @@ MonoBehaviour:
   - Assets/SpareParts/Meshes/Prism.fbx
   - Assets/backGround/bg_cube.fbx
   - Assets/Art/Melt/MeltStage/fbx/Floor.fbx
-  uvOverlapAssetList: 00000000000000000101000000000000010100000101000000000000010100000101000000000000000000000000000000000000010100000000000001010000010100000000000000000000000000000101000000000000000000000000000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000000000000000000000000000000000000000000000000000001010000000000000101000001010000000000000101000000000000010100000000000001010000000000000101000001010000010100000101000001010000000000000000000001010000000000000101000001010000010100000101000000000000000000000101000001010000010100000000000001010000000000000101000001010000010100000101000001010000000000000000000001010000010100000000000001010000000000000101000001010000000000000000000000000000010100000101000001010000010100000000000001010000010100000000000000000000000000000000000001010000000000000101000001010000000000000101000001010000ffffffff0101000001010000010100000000000000000000000000000000000000000000010100000000000001010000010100000000000000000000000000000000000000000000000000000101000001010000010100000000000000000000010100000101000001010000000000000000000000000000000000000000000000000000010100000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff00000000000000000000000000000000ffffffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffff000000000000000000000000000000000000000000000000000000000000000000000000ffffffff0000000001010000
+  - Assets/Art/Monitoring/Motion/Monitoring.fbx
+  - Assets/Art/Monitoring/Motion/Monitoring 1.fbx
+  - Assets/Art/TokyoSR/Motion/TokyoSR.fbx
+  - Assets/Art/KING/Motion/KING.fbx
+  - Assets/Art/GoodbyeSengen/GoodbyeSengen.fbx
+  - Assets/Art/GoodbyeSengen/GoodbyeSengen_Short.fbx
+  - Assets/Art/WorldIsMain/WorldIsMain.fbx
+  - Assets/EvilGirlsRoom/fbx/EvilGirlRoom.fbx
+  - Assets/Art/WorldIsMain/Stage/EvilGirlsRoom/fbx/EvilGirlRoom.fbx
+  - Assets/Art/WorldIsMain/Stage/Cube_stage2.fbx
+  - Assets/Art/WorldIsMain/Stage/Cube_stage1.fbx
+  - Assets/Cathedral/Resource/Mesh/Lectern_B.fbx
+  - Assets/Cathedral/Resource/Mesh/Book_A.fbx
+  - Assets/Cathedral/Resource/Mesh/Statue_C.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Ceiling_D.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Door_A_left.fbx
+  - Assets/Cathedral/Resource/temp/CandleStand_B.fbx
+  - Assets/Cathedral/Resource/Mesh/Wall_A.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/CeilingRib_B.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Floor_C.fbx
+  - Assets/Cathedral/Resource/Mesh/Statue_B.fbx
+  - Assets/Cathedral/Resource/Mesh/CandleStand_C.fbx
+  - Assets/Cathedral/Resource/Mesh/CeilingRib_B.fbx
+  - Assets/Cathedral/Resource/temp/Stage_B.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/CeilingRib_C.fbx
+  - Assets/Cathedral/Resource/Mesh/Wall_E.fbx
+  - Assets/Cathedral/Resource/Mesh/Door_B_left.fbx
+  - Assets/Cathedral/Resource/Mesh/Statue_E.fbx
+  - Assets/Cathedral/Resource/Mesh/Stage_C.fbx
+  - Assets/Cathedral/Resource/Mesh/Partition_A.fbx
+  - Assets/Cathedral/Resource/temp/Statue_C.fbx
+  - Assets/Cathedral/Resource/Mesh/Stage_B.fbx
+  - Assets/Cathedral/Resource/Mesh/Ceiling_B.fbx
+  - Assets/Cathedral/Resource/Mesh/Floor_A.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Floor_F.fbx
+  - Assets/Cathedral/Resource/Mesh/Stage_A.fbx
+  - Assets/Cathedral/Resource/Mesh/Pillar_E.fbx
+  - Assets/Cathedral/Resource/Mesh/Wall_G.fbx
+  - Assets/Cathedral/Resource/temp/CandleStand_A.fbx
+  - Assets/Cathedral/Resource/Mesh/Ceiling_A.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Door_B_left.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Door_A_right.fbx
+  - Assets/Cathedral/Resource/Mesh/Wall_F.fbx
+  - Assets/Cathedral/Resource/Mesh/Door_A_left.fbx
+  - Assets/Cathedral/Resource/Mesh/Floor_B.fbx
+  - Assets/Cathedral/Resource/Mesh/Cup_B.fbx
+  - Assets/Cathedral/Resource/Mesh/Pillar_C.fbx
+  - Assets/Cathedral/Resource/Mesh/Pillar_A.fbx
+  - Assets/Cathedral/Resource/Mesh/Floor_C.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Floor_A.fbx
+  - Assets/Cathedral/Resource/Mesh/Wall_C.fbx
+  - Assets/Cathedral/Resource/Mesh/Floor_E.fbx
+  - Assets/Cathedral/Resource/temp/Stage_A.fbx
+  - Assets/Cathedral/Resource/Mesh/Arch_B.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Wall_B.fbx
+  - Assets/Cathedral/Resource/Mesh/StatueStand_A.fbx
+  - Assets/Cathedral/Resource/Mesh/StatueStand_C.fbx
+  - Assets/Cathedral/Resource/Mesh/Door_B_right.fbx
+  - Assets/Cathedral/Resource/temp/Statue_E.fbx
+  - Assets/Cathedral/Resource/temp/Statue_D.fbx
+  - Assets/Cathedral/Resource/Mesh/Chair_B.fbx
+  - Assets/Cathedral/Resource/Mesh/Cup_A.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Wall_E.fbx
+  - Assets/Cathedral/Resource/Mesh/Floor_F.fbx
+  - Assets/Cathedral/Resource/Mesh/CandleStand_B.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Pillar_D.fbx
+  - Assets/Cathedral/Resource/temp/Lectern_A.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Ceiling_C.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/CeilingRib_A.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Wall_C.fbx
+  - Assets/Cathedral/Resource/temp/StatueStand_B.fbx
+  - Assets/Cathedral/Resource/Mesh/Wall_D.fbx
+  - Assets/Cathedral/Resource/Mesh/CeilingRib_A.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Pillar_A.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Wall_F.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Wall_D.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Pillar_C.fbx
+  - Assets/Cathedral/Resource/Mesh/CandleStand_D.fbx
+  - Assets/Cathedral/Resource/Mesh/Wall_B.fbx
+  - Assets/Cathedral/Resource/temp/Partition_A.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Pillar_B.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Arch_A.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Ceiling_E.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Floor_B.fbx
+  - Assets/Cathedral/Resource/Mesh/Book_B.fbx
+  - Assets/Cathedral/Resource/temp/Lectern_B.fbx
+  - Assets/Cathedral/Resource/temp/Stage_C.fbx
+  - Assets/Cathedral/Resource/temp/Chandelier.fbx
+  - Assets/Cathedral/Resource/Mesh/Door_A_right.fbx
+  - Assets/Cathedral/Resource/Mesh/Ceiling_C.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Ceiling_B.fbx
+  - Assets/Cathedral/Resource/Mesh/CandleStand_A.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Floor_D.fbx
+  - Assets/Cathedral/Resource/temp/Statue_A.fbx
+  - Assets/Cathedral/Resource/Mesh/Altar.fbx
+  - Assets/Cathedral/Resource/Mesh/Pillar_B.fbx
+  - Assets/Cathedral/Resource/temp/Chair_B.fbx
+  - Assets/Cathedral/Resource/temp/StatueStand_A.fbx
+  - Assets/Cathedral/Resource/Mesh/Partition_B.fbx
+  - Assets/Cathedral/Resource/temp/Statue_B.fbx
+  - Assets/Cathedral/Resource/Mesh/StatueStand_B.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Door_A_top.fbx
+  - Assets/Cathedral/Resource/Mesh/Arch_A.fbx
+  - Assets/Cathedral/Resource/Mesh/Chandelier.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Wall_A.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Pillar_E.fbx
+  - Assets/Cathedral/Resource/temp/StatueStand_C.fbx
+  - Assets/Cathedral/Resource/Mesh/Ceiling_D.fbx
+  - Assets/Cathedral/Resource/temp/Chair_A.fbx
+  - Assets/Cathedral/Resource/Mesh/Ceiling_E.fbx
+  - Assets/Cathedral/Resource/Mesh/Ceiling_F.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Ceiling_F.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Floor_E.fbx
+  - Assets/Cathedral/Resource/Mesh/Pillar_D.fbx
+  - Assets/Cathedral/Resource/temp/Altar.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Ceiling_A.fbx
+  - Assets/Cathedral/Resource/Mesh/CeilingRib_C.fbx
+  - Assets/Cathedral/Resource/Mesh/Statue_A.fbx
+  - Assets/Cathedral/Resource/Mesh/Door_A_top.fbx
+  - Assets/Cathedral/Resource/Mesh/Lectern_A.fbx
+  - Assets/Cathedral/Resource/temp/Partition_B.fbx
+  - Assets/Cathedral/Resource/Mesh/Chair_A.fbx
+  - Assets/Cathedral/Resource/Mesh/Statue_D.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Arch_B.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Wall_G.fbx
+  - Assets/Cathedral/Resource/CollisionMesh/Door_B_right.fbx
+  - Assets/Cathedral/Resource/Mesh/Floor_D.fbx
+  - Assets/Character/KasaneTeto/Tda_Kasane_Teto_default_v1_02_IK.fbx
+  - Assets/Character/KasaneTeto/Sour Kasane Teto UTAU-tail.fbx
+  - Assets/Art/CherryPop/Motion/CherryPop.fbx
+  - Assets/Art/C4NGE/Item/Stage/StageMain.fbx
+  - Assets/Art/C4NGE/Motion/C4NGE-Motion.fbx
+  - Assets/LiveAssets/Prefabs/LightAssets/fbx/StageLight_11_fbx.FBX
+  - Assets/ThirdPartyAssets/Zenject/OptionalExtras/SampleGame2 (Advanced)/Media/Models/ship.fbx
+  - Assets/ThirdPartyAssets/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/SpaceShip/Space_Shooter.fbx
+  - Assets/ThirdPartyAssets/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Meshes/shipfractured.fbx
+  - Assets/ThirdPartyAssets/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Imported/Rocks/meshes/rock_01.fbx
+  - Assets/ThirdPartyAssets/Zenject/OptionalExtras/SampleGame1 (Beginner)/Media/Meshes/ship.fbx
+  - "Assets/Character/Kahu/\u3086\u306A\u306F\u3089\u5F0F\u53EF\u4E0D Ver1.01_\u9854\u5F71\u306A\u3057.fbx"
+  - Assets/Character/Kahu/osidfhdasoifnsdoikfndsaofinsdofjdnsaf.fbx
+  - Assets/Art/C4NGE/Motion/C4NGE.fbx
+  - Assets/Art/C4NGE/Item/Stage/ifjdsbdfiunhodfiujndfoijnsdf.fbx
+  - Assets/Art/C4NGE/Item/Stage/fix-LED.fbx
+  - Assets/LiveAssets/fbx/Alpha_LEDPanel.fbx
+  - Assets/LiveAssets/fbx/AudioSpectrum-fix.fbx
+  - Assets/EZhex1991/EZSoftBone/Tests/Animation/unitychan.fbx
+  - Assets/Art/C4NGE/Item/Stage/Loudspeaker_ver0.1/LoudSpeaker.fbx
+  - Assets/antiquesofa/FBX/antiquesofa.fbx
+  - Assets/Art/C4NGE/Item/Stage/antiquesofa/FBX/antiquesofa.fbx
+  - Assets/Character/KasaneTeto/Tda_Kasane_Teto_default_v1_02.fbx
+  - Assets/Character/PPPP/PPPP MIKU.fbx
+  - Assets/Character/PPPP/PPPP TETO.fbx
+  - Assets/Character/Miku&Teto-Mesmerizer/TDA Mesmerizer Miku.fbx
+  uvOverlapAssetList: 00000000000000000101000000000000010100000101000000000000010100000101000000000000000000000000000000000000010100000000000001010000010100000000000000000000000000000101000000000000000000000000000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000000000000000000000000000000000000000000000000000001010000000000000101000001010000000000000101000000000000010100000000000001010000000000000101000001010000010100000101000001010000000000000000000001010000000000000101000001010000010100000101000000000000000000000101000001010000010100000000000001010000000000000101000001010000010100000101000001010000000000000000000001010000010100000000000001010000000000000101000001010000000000000000000000000000010100000101000001010000010100000000000001010000010100000000000000000000000000000000000001010000000000000101000001010000000000000101000001010000ffffffff0101000001010000010100000000000000000000000000000000000000000000010100000000000001010000010100000000000000000000000000000000000000000000000000000101000001010000010100000000000000000000010100000101000001010000000000000000000000000000000000000000000000000000010100000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff00000000000000000000000000000000ffffffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffff000000000000000000000000000000000000000000000000000000000000000000000000ffffffff0000000001010000000000000000000000000000000000000000000000000000000000000101000001010000000000000000000000000000000000000000000001010000010100000000000001010000010100000000000000000000000000000000000001010000010100000101000000000000000000000000000000000000010100000000000000000000000000000000000000000000000000000101000000000000000000000101000001010000010100000000000000000000000000000000000001010000000000000000000001010000000000000101000001010000010100000000000000000000000000000101000001010000000000000000000000000000000000000000000000000000010100000101000001010000010100000101000001010000000000000000000001010000010100000000000000000000010100000101000000000000010100000101000000000000000000000101000000000000000000000000000000000000010100000000000000000000010100000000000000000000010100000101000000000000010100000000000001010000010100000000000001010000000000000000000000000000010100000000000000000000010100000000000000000000010100000101000000000000000000000000000000000000010100000000000000000000010100000101000001010000000000000000000000000000000000000101000000000000000000000000000000000000010100000000000000000000000000000101000000000000010100000101000000000000000000000101000001010000010100000101000000000000000000000000000000000000
   xatlasWarningShown: 1
   foundCompatibleSetup: 1
   gpuName: NVIDIA GeForce RTX 4080

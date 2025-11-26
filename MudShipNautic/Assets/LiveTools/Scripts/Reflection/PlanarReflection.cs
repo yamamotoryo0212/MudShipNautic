@@ -15,12 +15,6 @@ public class PlanarReflectionView : MonoBehaviour
 	[Header("Render Settings")]
 	[SerializeField, Range(0.3f, 1.0f)] private float _resolutionScale = 1.0f;// テクスチャ解像度（数値を上げるほど高負荷） 0.3f: 低解像度, 1.0f: フル解像度    
 
-	[Header("Material Properties")]
-	[SerializeField] private Color _reflectionColor = Color.white; // 反射の色
-	[SerializeField, Range(0.0f, 1.0f)] private float _reflectionFactor = 1.0f; // 反射強度　0:反射なし ベースカラーのみ　1:完全に反射のみ
-	[SerializeField, Range(0.0f, 1.0f)] private float _roughness = 0.0f; // ぼかし強さ
-	private const float _blurRadius = .1f; // ぼかし半径
-
 	[Header("Internal Runtime States")]
 	private RenderTexture _renderTarget; // リフレクションカメラの撮影結果を格納するRenderTexture
 	private Material _floorMaterial; // 平面のマテリアル　シェーダー（PlanarReflection）操作用
@@ -48,13 +42,6 @@ public class PlanarReflectionView : MonoBehaviour
 
 	void Update()
 	{
-		if (_floorMaterial != null)
-		{
-			_floorMaterial.SetColor("_BaseColor", _reflectionColor);
-			_floorMaterial.SetFloat("_reflectionFactor", _reflectionFactor);
-			_floorMaterial.SetFloat("_Roughness", _roughness);
-		}
-
 		// スクリーンサイズ or 解像度スケール変更検出
 		if (Screen.width != _lastScreenWidth ||
 			Screen.height != _lastScreenHeight ||
@@ -102,7 +89,6 @@ public class PlanarReflectionView : MonoBehaviour
 		};
 
 		_floorMaterial.SetTexture("_ReflectionTex", _renderTarget);// マテリアルにリフレクションテクスチャを設定
-		_floorMaterial.SetFloat("_BlurRadius", _blurRadius);
 	}
 
 	private void RecreateRenderTarget()

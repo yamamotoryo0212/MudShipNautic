@@ -7,7 +7,7 @@ using System.ComponentModel;
 using UnityEditor;
 public class MagicaComponentTransfer : EditorWindow
 {
-	[MenuItem("Tools/MagicaComponentTransfer")]
+	[MenuItem("Tools/MudShip/MagicaComponentTransfer")]
 	public static void ShowWindow()
 	{
 		GetWindow<MagicaComponentTransfer>("MagicaComponentTransfer");

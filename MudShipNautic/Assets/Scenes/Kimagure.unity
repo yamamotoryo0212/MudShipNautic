@@ -471,7 +471,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &149760716
 Transform:
   m_ObjectHideFlags: 0
@@ -1061,7 +1061,7 @@ MonoBehaviour:
     m_Value: 1
   charBloom:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   threshold:
     m_OverrideState: 1
     m_Value: 3
@@ -1324,9 +1324,6 @@ MonoBehaviour:
   _mainSkybox: {fileID: 0}
   _reflectionSkybox: {fileID: 0}
   _resolutionScale: 1
-  _reflectionColor: {r: 0.15723258, g: 0.15723258, b: 0.15723258, a: 1}
-  _reflectionFactor: 1
-  _roughness: 0
 --- !u!4 &717183572
 Transform:
   m_ObjectHideFlags: 0
@@ -1870,7 +1867,7 @@ PlayableDirector:
   m_Enabled: 1
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: ef7e77fad30dcd24daa9b6fc5d9602b1, type: 2}
-  m_InitialState: 1
+  m_InitialState: 0
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
@@ -2175,7 +2172,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postProcessingVolume: {fileID: 130619469}
   characterLight: {fileID: 1488212196}
+  _stageLight: {fileID: 0}
   maxLightIntensity: 1
+  LightIntensity: 1
   emissiveMaterials:
   - {fileID: 2100000, guid: bcbc089e3f9e6094bb61f0a9b8537ede, type: 2}
   - {fileID: 2100000, guid: 74df6ecd09fc7f547b45e2ac4c234fd2, type: 2}
@@ -3095,11 +3094,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7408620601050188361, guid: 36f4915a61e71b0469ad9faaf975f115, type: 3}
       propertyPath: m_CullingMask.m_Bits
-      value: 4294967295
+      value: 439
       objectReference: {fileID: 0}
     - target: {fileID: 9153312273090963630, guid: 36f4915a61e71b0469ad9faaf975f115, type: 3}
       propertyPath: m_CullingMask.m_Bits
-      value: 4294967295
+      value: 439
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3514,6 +3513,26 @@ PrefabInstance:
     - target: {fileID: 3131673505268966285, guid: b819c13cc2a0c6d499e4b8f116b5ce77, type: 3}
       propertyPath: m_Name
       value: YYB Hatsune Miku_NT_1.0ver
+      objectReference: {fileID: 0}
+    - target: {fileID: 5298712519365758078, guid: b819c13cc2a0c6d499e4b8f116b5ce77, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[55]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5298712519365758078, guid: b819c13cc2a0c6d499e4b8f116b5ce77, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[59]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5298712519365758078, guid: b819c13cc2a0c6d499e4b8f116b5ce77, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[64]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5298712519365758078, guid: b819c13cc2a0c6d499e4b8f116b5ce77, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[65]'
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5298712519365758078, guid: b819c13cc2a0c6d499e4b8f116b5ce77, type: 3}
+      propertyPath: 'm_BlendShapeWeights.Array.data[66]'
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

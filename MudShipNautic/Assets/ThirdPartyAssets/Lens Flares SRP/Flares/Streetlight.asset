@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   elements:
   - lensFlareDataSRP: {fileID: 0}
-    visible: 0
+    visible: 1
     position: 0
     positionOffset: {x: 0, y: 0}
     angularOffset: 0
@@ -26,7 +26,7 @@ MonoBehaviour:
     noiseSpeed: 0
     shapeCutOffSpeed: 0
     shapeCutOffRadius: 10
-    m_LocalIntensity: 1
+    m_LocalIntensity: 0.28
     lensFlareTexture: {fileID: 2800000, guid: abfe855c7ff99fd4b99c881f2f457f24, type: 3}
     uniformScale: 1
     sizeXY: {x: 0.64, y: 0.64}
@@ -231,9 +231,9 @@ MonoBehaviour:
     shapeCutOffSpeed: 0
     shapeCutOffRadius: 10
     m_LocalIntensity: 1
-    lensFlareTexture: {fileID: 2800000, guid: 884fc6d5b230ace49bf2b7310780b421, type: 3}
+    lensFlareTexture: {fileID: 2800000, guid: af48aca3f0a86b64088beb560eaa1ff2, type: 3}
     uniformScale: 1
-    sizeXY: {x: 2, y: 1}
+    sizeXY: {x: 1, y: 1}
     allowMultipleElement: 0
     m_Count: 5
     preserveAspectRatio: 1
