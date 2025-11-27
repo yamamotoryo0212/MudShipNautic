@@ -16,12 +16,6 @@ public class CreateProjectSettings : ScriptableObject
 
 	[Header("ï°êªå≥ÇÃVolume")]
 	public VolumeProfile OriginalVolume;
-
-	private void OnValidate()
-	{
-		Mudship_Core.Settings = this;
-		Debug.Log("Mudship_Core Settings Updated" );
-	}
 }
 
 public enum RTAntiAliasing

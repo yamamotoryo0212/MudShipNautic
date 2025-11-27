@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf187ab41c5428d4ea3fdd8f618b8b80, type: 3}
+  m_Name: MudShip-CreateProjectSettings
+  m_EditorClassIdentifier: 
+  Resolution: {x: 3840, y: 2160}
+  RenderTextureFormat: 11
+  AntiAliasing: 1
+  EnableMipMap: 1
+  AutoGenerateMips: 1
+  useDynamicScale: 1
+  WrapMode: 0
+  OriginalVolume: {fileID: 11400000, guid: e5f8dae0e67905b45a9a8dafb0e06284, type: 2}

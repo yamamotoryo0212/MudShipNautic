@@ -118,9 +118,6 @@ public class MudShip_ProjectCreater : EditorWindow
 				so.ApplyModifiedProperties();
 
 				Undo.RegisterCreatedObjectUndo(timelineObj, "Create Timeline GameObject");
-
-				Debug.Log($"timelineAsset is null: {timelineAsset == null}");
-				Debug.Log($"timelineAsset path: {AssetDatabase.GetAssetPath(timelineAsset)}");
 				new GameObject("==========================================");
 				new GameObject("================= System ==================");
 				new GameObject("==========================================");
@@ -162,7 +159,7 @@ public class MudShip_ProjectCreater : EditorWindow
 				renderTextureCombiner.resultTexture = Output;
 				renderTextureCombiner.channelMergeMaterial = outputMat;
 
-				Volume volume = systemObj.AddComponent<Volume>();
+				Volume volume = new GameObject("Volume").AddComponent<Volume>();
 
 				string assetPath = $"{parentDirectry}/Item/volume.asset";
 				AssetDatabase.CopyAsset(
@@ -248,6 +245,36 @@ public class MudShip_ProjectCreater : EditorWindow
 				new GameObject("==========================================");
 				new GameObject("================== Light ===================");
 				new GameObject("==========================================");
+
+				var ms_DL = new GameObject("MS_DirectionalLight").AddComponent<MS_DirectionalLight>();
+				ms_DL.AddComponent<Animator>();
+
+				var characterLight = new GameObject("CharacterLight").AddComponent<Light>();
+				var characterUALD = characterLight.gameObject.AddComponent<UniversalAdditionalLightData>();
+				characterLight.type = LightType.Directional;
+				characterLight.gameObject.transform.parent = ms_DL.transform;
+				characterLight.color = Color.white;
+				characterLight.intensity = 0.3f;
+				characterLight.cullingMask = LayerMask.GetMask("Character");
+				characterLight.shadows = LightShadows.Soft;
+				characterUALD.renderingLayers =2;
+
+				var stageLight = new GameObject("StageLight").AddComponent<Light>();
+				var stageUALD = stageLight.gameObject.AddComponent<UniversalAdditionalLightData>();
+				stageLight.type = LightType.Directional;
+				stageLight.gameObject.transform.parent = ms_DL.transform;
+				stageLight.color = Color.white;
+				stageLight.intensity = 2.58f;
+				stageLight.cullingMask = LayerMask.GetMask("Default");
+				stageUALD.renderingLayers = 1;
+
+				ms_DL.postProcessingVolume = volume;
+				ms_DL.characterLight = characterLight;
+				ms_DL._stageLight = stageLight;
+
+				RenderSettings.skybox = null;
+				RenderSettings.ambientMode = AmbientMode.Flat;
+				RenderSettings.ambientLight = new Color(0, 0, 0, 0);
 				EditorSceneManager.SaveScene(scene, $"{parentDirectry}/{inputValues[i]}.unity");
 			}
 		}

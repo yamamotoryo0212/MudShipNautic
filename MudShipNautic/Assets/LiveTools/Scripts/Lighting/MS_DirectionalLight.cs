@@ -6,21 +6,19 @@ using Unity.VisualScripting;
 
 public class MS_DirectionalLight : MonoBehaviour
 {
-	[SerializeField]
-	private Volume postProcessingVolume = null;
+	public Volume postProcessingVolume = null;
 
 	private PotaToon.PotaToon potaToonEffect = null;
 	private float initialPostExposure = 0f;
 	private float initialScreenRimWidth = 0f;
 
-	[SerializeField]
-	private Light characterLight = null;
-	[SerializeField]
-	private Light _stageLight = null;
+
+	public Light characterLight = null;
+	public Light _stageLight = null;
 	private float _defStageLightIntensity = 0f;
 
 	[SerializeField]
-	private float maxLightIntensity = 0f;
+	private float maxLightIntensity = 1f;
 	public float LightIntensity = 1f;
 
 	private float previousLightIntensity = 0f;

@@ -4,16 +4,15 @@ using Unity.VisualScripting;
 
 #if UNITY_EDITOR
 using UnityEditor;
-public class Mudship_Core_Entry : Editor
+
+[InitializeOnLoad]
+public class Mudship_Core_Entry
 {
-	private void OnValidate()
+	static Mudship_Core_Entry()
 	{
-		Debug.Log("Mudship_Core_Entry OnValidate");
-		string[] a = AssetDatabase.FindAssets("HapPlayerEditor");
-		Debug.Log(a.Length);
-
-
-
+		string[] MS_CPS = AssetDatabase.FindAssets("MudShip-CreateProjectSettings");
+		var path = AssetDatabase.GUIDToAssetPath(MS_CPS[0]);
+		Mudship_Core.Settings = AssetDatabase.LoadAssetAtPath<CreateProjectSettings>(path);		
 	}
 }
 #endif
