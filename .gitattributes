@@ -20,3 +20,4 @@ MudShipNautic/Assets/Character/PPPP/PPPP[[:space:]]TETO.fbx filter=lfs diff=lfs 
 MudShipNautic/Assets/Art/CherryPop/Motion/CherryPop.fbx filter=lfs diff=lfs merge=lfs -text
 MudShipNautic/Assets/Character/Tda-rin/tex/body00_rinAp.tga filter=lfs diff=lfs merge=lfs -text
 MudShipNautic/Assets/Character/Tda-rin/tex/touka_rinAP_01_opacity.tga filter=lfs diff=lfs merge=lfs -text
+MudShipNautic/Assets/Art/PPPP/Motion/TetoMotion_vmd.anim filter=lfs diff=lfs merge=lfs -text

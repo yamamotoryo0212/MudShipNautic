@@ -4,6 +4,7 @@ Shader "MudShip/MS_Shadow"
     {
         _ShadowAlpha("Shadow Alpha", float) = 1
         _ShadowColor("Shadow Color", Color) = (0, 0, 0, 1)
+        _ShadowOffset("Shadow Sample Offset", Vector) = (0, 0, 0, 0)
     }
     SubShader
     {
@@ -35,6 +36,7 @@ Shader "MudShip/MS_Shadow"
             CBUFFER_START(UnityPerMaterial)
             float _ShadowAlpha;
             float4 _ShadowColor;
+            float4 _ShadowOffset;
             CBUFFER_END
             
             struct appdata
@@ -60,7 +62,10 @@ Shader "MudShip/MS_Shadow"
             
             half4 frag(v2f i) : SV_Target
             {
-                float4 shadowCoord = TransformWorldToShadowCoord(i.posWS);
+                // シャドウマップのサンプリング位置をずらす
+                float3 biasedPosWS = i.posWS + _ShadowOffset.xyz;
+                float4 shadowCoord = TransformWorldToShadowCoord(biasedPosWS);
+                
                 Light mainLight = GetMainLight(shadowCoord);
                 half shadow = mainLight.shadowAttenuation;
                 float4 col = float4(_ShadowColor.rgb, (1 - shadow) * _ShadowAlpha);

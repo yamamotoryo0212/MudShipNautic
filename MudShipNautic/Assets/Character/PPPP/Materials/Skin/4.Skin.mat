@@ -20,7 +20,6 @@ Material:
   - _NORMALMAP_TANGENT_SPACE
   - _RECEIVELIGHTSHADOW_ON
   - _TOON
-  - _USEMIDTONE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -409,7 +408,7 @@ Material:
     - _MidWidth: 1
     - _Mode: 0
     - _NoShadowCasting: 0
-    - _NormalBias: 0
+    - _NormalBias: -0.498
     - _NormalMapSpace: 0
     - _NormalMapUV: 0
     - _NormalScale: 1
@@ -472,7 +471,7 @@ Material:
     - _StencilWriteMaskGBuffer: 15
     - _StencilWriteMaskMV: 41
     - _StencilZFail: 0
-    - _StepSmoothness: 0.01
+    - _StepSmoothness: 0
     - _SubsurfaceMask: 1
     - _SupportDecals: 1
     - _SurfaceType: 0
@@ -501,7 +500,7 @@ Material:
     - _UseFaceSDFShadow: 0
     - _UseGlitter: 0
     - _UseHairHighLight: 0
-    - _UseMidTone: 1
+    - _UseMidTone: 0
     - _UseNormalMap: 0
     - _UseOutlineNormalMap: 0
     - _UseShadeMap: 0
@@ -520,7 +519,7 @@ Material:
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EdgeColor: {r: 0, g: 0, b: 0, a: 1}
-    - _EmissionColor: {r: 0.12578613, g: 0.12578613, b: 0.12578613, a: 1}
+    - _EmissionColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
     - _Emissive: {r: 0, g: 0, b: 0, a: 0}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
@@ -541,7 +540,7 @@ Material:
     - _MidColor: {r: 0.5, g: 0.2, b: 0.2, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ShadeColor: {r: 0.76729554, g: 0.557375, b: 0.557375, a: 1}
+    - _ShadeColor: {r: 1, g: 0.87106913, b: 0.87106913, a: 1}
     - _Specular: {r: 0, g: 0, b: 0, a: 0}
     - _SpecularColor: {r: 0, g: 0, b: 0, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}

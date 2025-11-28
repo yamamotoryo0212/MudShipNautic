@@ -422,7 +422,7 @@ Material:
     - _OutlineMaskUV: 0
     - _OutlineMode: 0
     - _OutlineOffsetZ: 0
-    - _OutlineWidth: 0.1
+    - _OutlineWidth: 2.46
     - _PPDLodThreshold: 5
     - _PPDMaxSamples: 15
     - _PPDMinSamples: 5
@@ -441,7 +441,7 @@ Material:
     - _Revision: 3
     - _RimMaskCH: 1
     - _RimMaskUV: 0
-    - _RimPower: 0.5
+    - _RimPower: 0.221
     - _RimSmoothness: 0.25
     - _SDFBlur: 0
     - _SDFOffset: 0
@@ -458,8 +458,8 @@ Material:
     - _SpecularMapUV: 0
     - _SpecularMaskCH: 1
     - _SpecularOcclusionMode: 1
-    - _SpecularPower: 0.5
-    - _SpecularSmoothness: 0.25
+    - _SpecularPower: 0.213
+    - _SpecularSmoothness: 0.5
     - _SrcBlend: 1
     - _StencilComp: 0
     - _StencilFail: 0
@@ -521,7 +521,7 @@ Material:
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EdgeColor: {r: 0, g: 0, b: 0, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0.81761, g: 0.81761, b: 0.81761, a: 1}
     - _Emissive: {r: 0, g: 0, b: 0, a: 0}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
@@ -541,10 +541,10 @@ Material:
     - _MatCapColor8: {r: 1, g: 1, b: 1, a: 1}
     - _MidColor: {r: 0.5, g: 0.2, b: 0.2, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
-    - _RimColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ShadeColor: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadeColor: {r: 0.36865628, g: 0.47571224, b: 0.5031446, a: 1}
     - _Specular: {r: 0, g: 0, b: 0, a: 0}
-    - _SpecularColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _ToonTone: {r: 1, g: 0.5, b: 0.5, a: 0}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}

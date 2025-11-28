@@ -20,7 +20,6 @@ Material:
   - _NORMALMAP_TANGENT_SPACE
   - _RECEIVELIGHTSHADOW_ON
   - _TOON
-  - _USEMIDTONE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -421,7 +420,7 @@ Material:
     - _OutlineMaskUV: 0
     - _OutlineMode: 0
     - _OutlineOffsetZ: 0
-    - _OutlineWidth: 0.1
+    - _OutlineWidth: 0
     - _PPDLodThreshold: 5
     - _PPDMaxSamples: 15
     - _PPDMinSamples: 5
@@ -501,7 +500,7 @@ Material:
     - _UseFaceSDFShadow: 0
     - _UseGlitter: 0
     - _UseHairHighLight: 0
-    - _UseMidTone: 1
+    - _UseMidTone: 0
     - _UseNormalMap: 0
     - _UseOutlineNormalMap: 0
     - _UseShadeMap: 0
@@ -520,7 +519,7 @@ Material:
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EdgeColor: {r: 0, g: 0, b: 0, a: 1}
-    - _EmissionColor: {r: 0.61635214, g: 0.61635214, b: 0.61635214, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _Emissive: {r: 0, g: 0, b: 0, a: 0}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
@@ -541,7 +540,7 @@ Material:
     - _MidColor: {r: 0.5, g: 0.2, b: 0.2, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ShadeColor: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+    - _ShadeColor: {r: 1, g: 1, b: 1, a: 1}
     - _Specular: {r: 0, g: 0, b: 0, a: 0}
     - _SpecularColor: {r: 0, g: 0, b: 0, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}

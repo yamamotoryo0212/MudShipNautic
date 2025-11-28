@@ -21,19 +21,23 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: New Material
-  m_Shader: {fileID: 4800000, guid: 63d89ebeb4294934a8664aea4d0b18e4, type: 3}
+  m_Shader: {fileID: 4800000, guid: 06b48135ed345fa4292649d687f50bfa, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
+  m_ValidKeywords:
+  - _ALPHAPREMULTIPLY_ON
   - _EMISSION
+  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
   m_LightmapFlags: 2
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
+  - DepthOnly
+  - SHADOWCASTER
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -51,7 +55,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DepthTexture:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 8400000, guid: da976c3eba872d74b820f753cc4e77fb, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -87,7 +91,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShadowMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 8400000, guid: da976c3eba872d74b820f753cc4e77fb, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -119,10 +123,11 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
+    - _DebugAlpha: 0
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _DstBlendAlpha: 0
+    - _DstBlend: 10
+    - _DstBlendAlpha: 10
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
@@ -133,11 +138,11 @@ Material:
     - _PlaneHeight: 1.65
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _ShadowAlpha: 28.7
+    - _ShadowAlpha: 0.75
     - _ShadowBias: 0.01
     - _ShadowFalloff: 2
     - _ShadowHeight: 5
-    - _ShadowIntensity: 1
+    - _ShadowIntensity: 0.279
     - _ShadowSharpness: 0.1
     - _ShadowStrength: 0.5
     - _Smoothness: 0.5
@@ -145,14 +150,14 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
-    - _Surface: 0
+    - _Surface: 1
     - _WorkflowMode: 1
-    - _ZWrite: 1
+    - _ZWrite: 0
     m_Colors:
     - _BaseColor: {r: 0.8805031, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.8805031, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _ShadowColor: {r: 0.34591186, g: 0.25127557, b: 0.25127557, a: 1}
+    - _ShadowColor: {r: 0, g: 0, b: 0, a: 0.7}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

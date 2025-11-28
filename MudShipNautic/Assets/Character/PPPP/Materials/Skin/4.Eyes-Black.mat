@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 4.Eyes-Black
-  m_Shader: {fileID: 4800000, guid: cf585d0d717caed4fabcb3c580b2c2b8, type: 3}
+  m_Shader: {fileID: 4800000, guid: cc5c1aecf31d1844db2e888dbfff02a9, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -25,7 +25,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap: {}
   disabledShaderPasses:
   - TransparentDepthPrepass
@@ -454,7 +454,7 @@ Material:
     - _RimMaskCH: 1
     - _RimMaskUV: 0
     - _RimPower: 0.5
-    - _RimSmoothness: 0.25
+    - _RimSmoothness: 0.1
     - _SDFBlur: 0
     - _SDFOffset: 0
     - _SDFReverse: 0
@@ -471,7 +471,7 @@ Material:
     - _SpecularMaskCH: 1
     - _SpecularOcclusionMode: 1
     - _SpecularPower: 0.5
-    - _SpecularSmoothness: 0.25
+    - _SpecularSmoothness: 0.1
     - _SrcBlend: 1
     - _StencilComp: 0
     - _StencilFail: 0
@@ -495,7 +495,7 @@ Material:
     - _TexWorldScale: 1
     - _TexWorldScaleEmissive: 1
     - _Thickness: 1
-    - _ToonType: 2
+    - _ToonType: 0
     - _TransmissionEnable: 1
     - _TransmissionMask: 1
     - _TransparentBackfaceEnable: 0
@@ -530,7 +530,7 @@ Material:
     - _ZWriteMode: 1
     m_Colors:
     - _Ambient: {r: 0.752941, g: 0.752941, b: 0.752941, a: 0}
-    - _BaseColor: {r: 0, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
@@ -557,10 +557,10 @@ Material:
     - _MatCapColor8: {r: 1, g: 1, b: 1, a: 1}
     - _MidColor: {r: 0.5, g: 0.2, b: 0.2, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
-    - _RimColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ShadeColor: {r: 0.76729554, g: 0.557375, b: 0.557375, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadeColor: {r: 0.75, g: 0.75, b: 0.75, a: 1}
     - _Specular: {r: 0, g: 0, b: 0, a: 0}
-    - _SpecularColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _ToonTone: {r: 1, g: 0.5, b: 0.5, a: 0}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}

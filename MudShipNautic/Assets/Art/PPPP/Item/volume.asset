@@ -59,24 +59,24 @@ MonoBehaviour:
     m_Value: 1
   charScreenOutline:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   charScreenOutlineExcludeInnerLines:
     m_OverrideState: 1
     m_Value: 0
   charScreenOutlineColor:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: {r: 0, g: 0, b: 0, a: 1}
   charScreenOutlineThickness:
     m_OverrideState: 0
     m_Value: 0.49
   charScreenOutlineEdgeStrength:
     m_OverrideState: 1
-    m_Value: 0.01
+    m_Value: 0.16
   charPostExposure:
     m_OverrideState: 1
-    m_Value: 0.326
+    m_Value: 0.453
   charGammaAdjust:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   charToneMapping:
     m_OverrideState: 1
@@ -92,7 +92,7 @@ MonoBehaviour:
     m_Value: 0
   charSaturation:
     m_OverrideState: 1
-    m_Value: 45.3
+    m_Value: -0.3
   screenRimWidth:
     m_OverrideState: 1
     m_Value: 0
@@ -430,13 +430,13 @@ MonoBehaviour:
     m_Value: 1
   saturate:
     m_OverrideState: 1
-    m_Value: 0.04
+    m_Value: 0.78
   brightness:
     m_OverrideState: 1
     m_Value: 1.093
   contrast:
-    m_OverrideState: 0
-    m_Value: 0.888
+    m_OverrideState: 1
+    m_Value: 0.59
   daltonize:
     m_OverrideState: 0
     m_Value: 0
@@ -927,26 +927,26 @@ MonoBehaviour:
     m_Value: {fileID: 0}
     dimension: 1
   outline:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   outlineColor:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: {r: 0, g: 0, b: 0, a: 0.8}
   outlineTechnique:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   outlineMinSeparation:
     m_OverrideState: 0
     m_Value: 1
   outlineThreshold:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0.2
   outlineMinDepthThreshold:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0.0005
   outlineSaturationDiffThreshold:
-    m_OverrideState: 0
-    m_Value: 0.015
+    m_OverrideState: 1
+    m_Value: 0.113
   outlineCustomize:
     m_OverrideState: 0
     m_Value: 0
@@ -981,7 +981,7 @@ MonoBehaviour:
     m_Value: 0
   nightVision:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 1
   nightVisionColor:
     m_OverrideState: 0
     m_Value: {r: 0.5, g: 1, b: 0.5, a: 0.5}
@@ -993,7 +993,7 @@ MonoBehaviour:
     m_Value: 1
   thermalVision:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 1
   thermalVisionScanLines:
     m_OverrideState: 0
     m_Value: 1
