@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2c92a3b35c9b4e94cb867e9f5b73ff7c
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250071
+  packageName: Sci-Fi Cosmos Sky Dome
+  packageVersion: 1.0.1
+  assetPath: Assets/Cosmos_SkyDome/URP/Material/URP_Cosmos_StarrySky.shader
+  uploadId: 614921
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -398,8 +398,8 @@ Material:
     - _reflectionFactor: 1
     m_Colors:
     - _AmbientColor: {r: 0, g: 0, b: 0, a: 0}
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 0.10980392}
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.78616345, g: 0.78616345, b: 0.78616345, a: 0.3647059}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FaceForward: {r: 0, g: 0, b: 1, a: 0}
     - _FaceUp: {r: 0, g: 1, b: 0, a: 0}

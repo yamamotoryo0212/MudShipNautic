@@ -492,7 +492,7 @@ Material:
     - _StepSmoothness: 0.01
     - _SubsurfaceMask: 1
     - _SupportDecals: 1
-    - _SurfaceType: 3
+    - _SurfaceType: 0
     - _TessEdgeLength: 5
     - _TessExtrusionAmount: 0
     - _TessPhongStrength: 0.5
@@ -558,7 +558,7 @@ Material:
     - _MidColor: {r: 0.5, g: 0.2, b: 0.2, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ShadeColor: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+    - _ShadeColor: {r: 0.57861626, g: 0.57861626, b: 0.57861626, a: 1}
     - _Specular: {r: 0, g: 0, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}

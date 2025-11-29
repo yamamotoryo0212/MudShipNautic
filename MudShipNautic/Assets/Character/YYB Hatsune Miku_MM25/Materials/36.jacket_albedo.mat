@@ -458,7 +458,7 @@ Material:
     - _SpecularMapUV: 0
     - _SpecularMaskCH: 1
     - _SpecularOcclusionMode: 1
-    - _SpecularPower: 0.457
+    - _SpecularPower: 0.056
     - _SpecularSmoothness: 0.25
     - _SrcBlend: 1
     - _StencilComp: 0

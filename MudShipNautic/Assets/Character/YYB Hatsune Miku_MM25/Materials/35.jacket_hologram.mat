@@ -476,7 +476,7 @@ Material:
     - _SpecularMapUV: 0
     - _SpecularMaskCH: 1
     - _SpecularOcclusionMode: 1
-    - _SpecularPower: 0.457
+    - _SpecularPower: 0.056
     - _SpecularSmoothness: 0.25
     - _SrcBlend: 1
     - _StencilComp: 0
@@ -539,7 +539,7 @@ Material:
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EdgeColor: {r: 0, g: 0, b: 0, a: 1}
-    - _EmissionColor: {r: 0.3207547, g: 0.3207547, b: 0.3207547, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _Emissive: {r: 0, g: 0, b: 0, a: 0}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}

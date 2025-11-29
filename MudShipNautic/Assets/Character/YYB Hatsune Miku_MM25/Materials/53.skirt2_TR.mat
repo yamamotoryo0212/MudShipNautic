@@ -67,6 +67,7 @@ Material:
     m_Floats:
     - _OutlineWidth: 0.84
     - _RenderQueue: 2055
+    - _SpecularPower: 0.108
     - _SurfaceType: 3
     - _ZWriteMode: 0
     m_Colors:

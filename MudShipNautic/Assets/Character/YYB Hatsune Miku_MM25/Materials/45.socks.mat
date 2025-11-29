@@ -67,6 +67,7 @@ Material:
     - _RenderQueue: 2047
     - _Shininess: 75
     - _Smoothness: 0.8660254
-    m_Colors: []
+    m_Colors:
+    - _EmissionColor: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

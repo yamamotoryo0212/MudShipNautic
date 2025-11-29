@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 06827c81fbe175c4c8b2ee967507d3f6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250071
+  packageName: Sci-Fi Cosmos Sky Dome
+  packageVersion: 1.0.1
+  assetPath: Assets/Cosmos_SkyDome/URP/Prefab/URP_Cosmos_SkyDome.prefab
+  uploadId: 614921

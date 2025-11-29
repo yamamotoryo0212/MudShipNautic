@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 377b37fc5a714384a89503b503f299b6
+timeCreated: 1560410687
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250071
+  packageName: Sci-Fi Cosmos Sky Dome
+  packageVersion: 1.0.1
+  assetPath: Assets/Cosmos_SkyDome/Built-in/Prefab/Cosmos_StarParticle.prefab
+  uploadId: 614921

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 390d60319b14f194aa34df4d2e7f31bf
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250071
+  packageName: Sci-Fi Cosmos Sky Dome
+  packageVersion: 1.0.1
+  assetPath: Assets/Cosmos_SkyDome/Built-in/Material/Cosmos_StarrySky.shader
+  uploadId: 614921

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 07ab7acbb57e4e14cb7c79e49e66a604
+timeCreated: 1560407819
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250071
+  packageName: Sci-Fi Cosmos Sky Dome
+  packageVersion: 1.0.1
+  assetPath: Assets/Cosmos_SkyDome/URP/Material/URP_Cosmos_StarVFX.mat
+  uploadId: 614921
