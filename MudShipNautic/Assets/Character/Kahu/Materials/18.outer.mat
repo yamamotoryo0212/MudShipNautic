@@ -441,7 +441,7 @@ Material:
     - _Revision: 3
     - _RimMaskCH: 1
     - _RimMaskUV: 0
-    - _RimPower: 0.5
+    - _RimPower: 0.224
     - _RimSmoothness: 0.25
     - _SDFBlur: 0
     - _SDFOffset: 0
@@ -458,8 +458,8 @@ Material:
     - _SpecularMapUV: 0
     - _SpecularMaskCH: 1
     - _SpecularOcclusionMode: 1
-    - _SpecularPower: 0.5
-    - _SpecularSmoothness: 0.25
+    - _SpecularPower: 0.267
+    - _SpecularSmoothness: 0.5
     - _SrcBlend: 1
     - _StencilComp: 0
     - _StencilFail: 0
@@ -525,10 +525,10 @@ Material:
     - _Emissive: {r: 0, g: 0, b: 0, a: 0}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
-    - _FaceForward: {r: 0, g: 0, b: 1, a: 0}
-    - _FaceUp: {r: 0, g: 1, b: 0, a: 0}
+    - _FaceForward: {r: 0.0012679147, g: -0.17814104, b: 0.98400414, a: 0}
+    - _FaceUp: {r: 0.06413014, g: 0.9819939, b: 0.17769448, a: 0}
     - _GlitterColor: {r: 1, g: 1, b: 1, a: 1}
-    - _HeadWorldPos: {r: -6.2726146e-16, g: 1.3517213, b: -0.017817536, a: 0}
+    - _HeadWorldPos: {r: -0.08404608, g: 1.2800514, b: 0.49253613, a: 0}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _MatCapColor: {r: 1, g: 1, b: 1, a: 1}
@@ -544,7 +544,7 @@ Material:
     - _RimColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadeColor: {r: 0.63522005, g: 0.63522005, b: 0.63522005, a: 1}
     - _Specular: {r: 0, g: 0, b: 0, a: 0}
-    - _SpecularColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecularColor: {r: 0.13836467, g: 0.13836467, b: 0.13836467, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _ToonTone: {r: 1, g: 0.5, b: 0.5, a: 0}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}

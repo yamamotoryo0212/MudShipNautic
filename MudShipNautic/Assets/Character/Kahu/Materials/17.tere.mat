@@ -523,10 +523,10 @@ Material:
     - _Emissive: {r: 0, g: 0, b: 0, a: 0}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
-    - _FaceForward: {r: 0, g: 0, b: 1, a: 0}
-    - _FaceUp: {r: 0, g: 1, b: 0, a: 0}
+    - _FaceForward: {r: 0.0012679147, g: -0.17814104, b: 0.98400414, a: 0}
+    - _FaceUp: {r: 0.06413014, g: 0.9819939, b: 0.17769448, a: 0}
     - _GlitterColor: {r: 1, g: 1, b: 1, a: 1}
-    - _HeadWorldPos: {r: -6.2726146e-16, g: 1.3517213, b: -0.017817536, a: 0}
+    - _HeadWorldPos: {r: -0.08404608, g: 1.2800514, b: 0.49253613, a: 0}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _MatCapColor: {r: 1, g: 1, b: 1, a: 1}

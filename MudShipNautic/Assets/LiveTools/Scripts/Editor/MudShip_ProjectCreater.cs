@@ -269,8 +269,8 @@ public class MudShip_ProjectCreater : EditorWindow
 				stageUALD.renderingLayers = 1;
 
 				ms_DL.postProcessingVolume = volume;
-				ms_DL.characterLight = characterLight;
-				ms_DL._stageLight = stageLight;
+				ms_DL.characterLights.Add(characterLight);
+				ms_DL.stageLights.Add(stageLight);
 
 				RenderSettings.skybox = null;
 				RenderSettings.ambientMode = AmbientMode.Flat;

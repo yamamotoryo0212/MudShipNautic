@@ -125,8 +125,8 @@ Material:
     - OffsetLEDY: 0
     - OffsetVideoX: 0
     - OffsetVideoY: -0.47
-    - TilingLEDX: 100
-    - TilingLEDY: 100
+    - TilingLEDX: 200
+    - TilingLEDY: 200
     - TilingVideoX: 1
     - TilingVideoY: 1.4
     - Vector1_04710da2add54fb687913d1bf5a6b7b2: 20
@@ -176,7 +176,7 @@ Material:
     - _ZWriteControl: 0
     m_Colors:
     - Color_941038397df743edb971942aa6a65b41: {r: 1.498039, g: 1.498039, b: 1.498039, a: 0}
-    - Color_B7810F92: {r: 0.57232696, g: 0.57232696, b: 0.57232696, a: 0}
+    - Color_B7810F92: {r: 0.031446517, g: 0.031446517, b: 0.031446517, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

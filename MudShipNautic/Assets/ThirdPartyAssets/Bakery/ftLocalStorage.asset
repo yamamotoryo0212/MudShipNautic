@@ -17,4 +17,5 @@ MonoBehaviour:
   - Assets/Parts/NewRoomTest/Model/Room/FBX/Bed.fbx
   - Assets/Parts/NewRoomTest/Model/Room/FBX/Book_Manga.fbx
   - Assets/Astral/R12_SimpleRoom05/Texture/R12.fbx
-  modifiedAssetPaddingHash: d6a958ff86079cc12b6cedfa56d8d203
+  - Assets/Art/ECHO/Item/Stage/Stage/ECHO_Stage/fbx/StageMain.fbx
+  modifiedAssetPaddingHash: d6a958ff86079cc12b6cedfa56d8d203bd96dde8
